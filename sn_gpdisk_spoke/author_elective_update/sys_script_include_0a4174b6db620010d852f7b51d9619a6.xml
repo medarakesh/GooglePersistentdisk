@@ -2,26 +2,26 @@
     <sys_script_include action="DELETE">
         <access>public</access>
         <active>true</active>
-        <api_name>sn_gcompute_spoke.OAuthGoogleComputeUtil</api_name>
+        <api_name>sn_gcompute_spoke.OAuthGooglePersistentDiskUtil</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <name>OAuthGoogleComputeUtil</name>
-        <script><![CDATA[var OAuthGoogleComputeUtil = Class.create();
-OAuthGoogleComputeUtil.prototype = Object.extendsObject(global.OAuthUtil, {
+        <name>OAuthGooglePersistentDiskUtil</name>
+        <script><![CDATA[var OAuthGooglePersistentDiskUtil = Class.create();
+OAuthGooglePersistentDiskUtil.prototype = Object.extendsObject(global.OAuthUtil, {
     preprocessAuthCode: function(requestParamMap) {
         requestParamMap.put('access_type', 'offline');
         requestParamMap.put('prompt', 'consent');
     },
 
-    type: 'OAuthGoogleComputeUtil'
+    type: 'OAuthGooglePersistentDiskUtil'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-28 10:17:43</sys_created_on>
         <sys_id>0a4174b6db620010d852f7b51d9619a6</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name>OAuthGoogleComputeUtil</sys_name>
+        <sys_name>OAuthGooglePersistentDiskUtil</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
@@ -40,26 +40,26 @@ OAuthGoogleComputeUtil.prototype = Object.extendsObject(global.OAuthUtil, {
     &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
         &lt;access&gt;public&lt;/access&gt;
         &lt;active&gt;true&lt;/active&gt;
-        &lt;api_name&gt;sn_gcompute_spoke.OAuthGoogleComputeUtil&lt;/api_name&gt;
+        &lt;api_name&gt;sn_gcompute_spoke.OAuthGooglePersistentDiskUtil&lt;/api_name&gt;
         &lt;caller_access/&gt;
         &lt;client_callable&gt;false&lt;/client_callable&gt;
         &lt;description/&gt;
-        &lt;name&gt;OAuthGoogleComputeUtil&lt;/name&gt;
-        &lt;script&gt;&lt;![CDATA[var OAuthGoogleComputeUtil = Class.create();
-OAuthGoogleComputeUtil.prototype = Object.extendsObject(global.OAuthUtil, {
+        &lt;name&gt;OAuthGooglePersistentDiskUtil&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var OAuthGooglePersistentDiskUtil = Class.create();
+OAuthGooglePersistentDiskUtil.prototype = Object.extendsObject(global.OAuthUtil, {
     preprocessAuthCode: function(requestParamMap) {
         requestParamMap.put('access_type', 'offline');
         requestParamMap.put('prompt', 'consent');
     },
 
-    type: 'OAuthGoogleComputeUtil'
+    type: 'OAuthGooglePersistentDiskUtil'
 });]]&gt;&lt;/script&gt;
         &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
         &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
         &lt;sys_created_on&gt;2020-01-28 10:17:43&lt;/sys_created_on&gt;
         &lt;sys_id&gt;0a4174b6db620010d852f7b51d9619a6&lt;/sys_id&gt;
         &lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;
-        &lt;sys_name&gt;OAuthGoogleComputeUtil&lt;/sys_name&gt;
+        &lt;sys_name&gt;OAuthGooglePersistentDiskUtil&lt;/sys_name&gt;
         &lt;sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke"&gt;06a7f79ddb8b0010c5267bfdae9619b4&lt;/sys_package&gt;
         &lt;sys_policy&gt;read&lt;/sys_policy&gt;
         &lt;sys_scope display_value="Google Persistent Disk"&gt;06a7f79ddb8b0010c5267bfdae9619b4&lt;/sys_scope&gt;
@@ -69,7 +69,7 @@ OAuthGoogleComputeUtil.prototype = Object.extendsObject(global.OAuthUtil, {
     &lt;/sys_script_include&gt;
 &lt;/record_update&gt;</payload>
         <payload_hash>-872965466</payload_hash>
-        <record_name>OAuthGoogleComputeUtil</record_name>
+        <record_name>OAuthGooglePersistentDiskUtil</record_name>
         <reverted_from/>
         <source>57304da9dbc30010a16b5a75dc961900</source>
         <source_table>sys_upgrade_history</source_table>
@@ -94,7 +94,7 @@ OAuthGoogleComputeUtil.prototype = Object.extendsObject(global.OAuthUtil, {
         <sys_id>70ad787d6fc84ef8815852f6446dec10</sys_id>
         <sys_metadata>0a4174b6db620010d852f7b51d9619a6</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>OAuthGoogleComputeUtil</sys_name>
+        <sys_name>OAuthGooglePersistentDiskUtil</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_parent/>
         <sys_policy>read</sys_policy>
