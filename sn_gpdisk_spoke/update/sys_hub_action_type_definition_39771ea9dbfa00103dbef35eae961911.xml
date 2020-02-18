@@ -29,7 +29,7 @@
         <sys_mod_count>39</sys_mod_count>
         <sys_name>Resize Disk</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_39771ea9dbfa00103dbef35eae961911</sys_update_name>
@@ -1948,7 +1948,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">7f2c1ae9db3e0010d852f7b51d9619b3</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_type>
+        <action_type display_value="">2e674695dbf200103dbef35eae961921</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 07:04:23</sys_created_on>
         <sys_id>3f2c1ae9db3e0010d852f7b51d9619bb</sys_id>
@@ -1957,20 +1957,6 @@
         <sys_updated_on>2020-02-07 07:27:15</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3f2c1ae9db3e0010d852f7b51d9619bb"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>3f2c1ae9db3e0010d852f7b51d9619bb</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-06 07:04:23</sys_created_on>
-        <sys_id>3b2c1ae9db3e0010d852f7b51d9619bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 07:04:23</sys_updated_on>
-        <value>{{action.project_id}}</value>
-        <variable display_value="">130b8219dbf200103dbef35eae9619c7</variable>
-    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2065,34 +2051,6 @@
         <sys_updated_on>2020-02-07 07:27:15</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b72c1ae9db3e0010d852f7b51d9619c6"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>b72c1ae9db3e0010d852f7b51d9619c6</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-06 07:04:23</sys_created_on>
-        <sys_id>7f2c1ae9db3e0010d852f7b51d9619c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 07:04:23</sys_updated_on>
-        <value>{{action.zone}}</value>
-        <variable display_value="">bf34daa5db3e0010d852f7b51d9619fe</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>b72c1ae9db3e0010d852f7b51d9619c6</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-06 07:04:23</sys_created_on>
-        <sys_id>bb2c1ae9db3e0010d852f7b51d9619c7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 07:04:23</sys_updated_on>
-        <value>{{action.project_id}}</value>
-        <variable display_value="">3334daa5db3e0010d852f7b51d9619f9</variable>
-    </sys_variable_value>
     <sys_hub_action_output action="delete_multiple" query="model=39771ea9dbfa00103dbef35eae961911^sys_idNOT IN6f421be9dbf200103dbef35eae96199b,b83c5ae9db3e0010d852f7b51d961948"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -3910,7 +3868,7 @@
         <sys_id>372c1ae9db3e0010d852f7b51d9619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Project ID</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_39771ea9dbfa00103dbef35eae961911_project_id_en</sys_update_name>
@@ -3933,7 +3891,7 @@
         <sys_id>372c1ae9db3e0010d852f7b51d9619c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Disk Name</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_39771ea9dbfa00103dbef35eae961911_disk_name_en</sys_update_name>
@@ -3956,7 +3914,7 @@
         <sys_id>bb2c1ae9db3e0010d852f7b51d9619ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Zone</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_39771ea9dbfa00103dbef35eae961911_zone_en</sys_update_name>
@@ -3979,7 +3937,7 @@
         <sys_id>e93f52eddb3e0010d852f7b51d961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Size GB</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_39771ea9dbfa00103dbef35eae961911_size_gb_en</sys_update_name>
@@ -5281,7 +5239,7 @@
         <sys_id>7c3c5ae9db3e0010d852f7b51d96194c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Error Message</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_39771ea9dbfa00103dbef35eae961911_errormessage_en</sys_update_name>
@@ -5304,7 +5262,7 @@
         <sys_id>ab421be9dbf200103dbef35eae9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Status</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_39771ea9dbfa00103dbef35eae961911_status_en</sys_update_name>
@@ -7335,7 +7293,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">cb81f62ddb7200103dbef35eae961993</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_type>
+        <action_type display_value="">2e674695dbf200103dbef35eae961921</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:44</sys_created_on>
         <sys_id>d781f62ddb7200103dbef35eae9619c7</sys_id>
@@ -7344,20 +7302,6 @@
         <sys_updated_on>2020-02-07 07:27:24</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d781f62ddb7200103dbef35eae9619c7"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>d781f62ddb7200103dbef35eae9619c7</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-06 08:37:44</sys_created_on>
-        <sys_id>1381f62ddb7200103dbef35eae9619c8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 08:37:44</sys_updated_on>
-        <value>{{action.project_id}}</value>
-        <variable display_value="">130b8219dbf200103dbef35eae9619c7</variable>
-    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -7452,34 +7396,6 @@
         <sys_updated_on>2020-02-07 07:27:24</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9f81f62ddb7200103dbef35eae9619d0"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>9f81f62ddb7200103dbef35eae9619d0</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-06 08:37:44</sys_created_on>
-        <sys_id>9f81f62ddb7200103dbef35eae9619d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 08:37:44</sys_updated_on>
-        <value>{{action.zone}}</value>
-        <variable display_value="">bf34daa5db3e0010d852f7b51d9619fe</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>9f81f62ddb7200103dbef35eae9619d0</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-06 08:37:44</sys_created_on>
-        <sys_id>db81f62ddb7200103dbef35eae9619d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 08:37:44</sys_updated_on>
-        <value>{{action.project_id}}</value>
-        <variable display_value="">3334daa5db3e0010d852f7b51d9619f9</variable>
-    </sys_variable_value>
     <sys_hub_action_output action="delete_multiple" query="model=c381f62ddb7200103dbef35eae96198d^sys_idNOT INa5729fe9dbf200103dbef35eae9619d8,f7813a2ddb7200103dbef35eae96195d"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -9297,7 +9213,7 @@
         <sys_id>0f81f62ddb7200103dbef35eae961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Project ID</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c381f62ddb7200103dbef35eae96198d_project_id_en</sys_update_name>
@@ -9320,7 +9236,7 @@
         <sys_id>1381f62ddb7200103dbef35eae9619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Disk Name</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c381f62ddb7200103dbef35eae96198d_disk_name_en</sys_update_name>
@@ -9343,7 +9259,7 @@
         <sys_id>5781f62ddb7200103dbef35eae9619d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Size GB</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c381f62ddb7200103dbef35eae96198d_size_gb_en</sys_update_name>
@@ -9366,7 +9282,7 @@
         <sys_id>5b81f62ddb7200103dbef35eae9619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Zone</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c381f62ddb7200103dbef35eae96198d_zone_en</sys_update_name>
@@ -10668,7 +10584,7 @@
         <sys_id>08913a2ddb7200103dbef35eae961961</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Error Message</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c381f62ddb7200103dbef35eae96198d_errormessage_en</sys_update_name>
@@ -10691,7 +10607,7 @@
         <sys_id>e1729fe9dbf200103dbef35eae9619df</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Status</sys_name>
-        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c381f62ddb7200103dbef35eae96198d_status_en</sys_update_name>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="DELETE">
+        <name>Machine Types Management</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:41:19</sys_created_on>
+        <sys_id>e5ff6c17db7200103dbef35eae961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Machine Types Management</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_hub_category_e5ff6c17db7200103dbef35eae961972</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:41:19</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="DELETE" query="documentkey=e5ff6c17db7200103dbef35eae961972"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</application>
+        <file_path/>
+        <instance_id>0c4cf562dbcd001452dd2f17d49619fc</instance_id>
+        <instance_name>emppmalladi1</instance_name>
+        <name>sys_hub_category_e5ff6c17db7200103dbef35eae961972</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Machine Types Management</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 09:41:19</sys_created_on>
+        <sys_id>e5ff6c17db7200103dbef35eae961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Machine Types Management</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_hub_category_e5ff6c17db7200103dbef35eae961972</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-11 09:41:19</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=e5ff6c17db7200103dbef35eae961972"/>
+</record_update>]]></payload>
+        <payload_hash>1413880982</payload_hash>
+        <record_name>Machine Types Management</record_name>
+        <reverted_from/>
+        <source>57304da9dbc30010a16b5a75dc961900</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 10:54:13</sys_created_on>
+        <sys_id>2bd3c965db070010a16b5a75dc9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17057ef1e560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 10:54:13</sys_updated_on>
+        <type>Action Category</type>
+        <update_guid>a7d3c9656f0700100cc96076c17576e8</update_guid>
+        <update_guid_history>a7d3c9656f0700100cc96076c17576e8:0,be454c69b60f001015667c0398797184:22526502,8c7fb7d95ecb00105ad1e092c24d4b16:814177443</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rakesh.meda@snc</sys_created_by>
+        <sys_created_on>2020-02-18 14:20:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_category">sys_hub_category</sys_db_object>
+        <sys_id>07eb5d44cbc64588a6c1960321205f24</sys_id>
+        <sys_metadata>e5ff6c17db7200103dbef35eae961972</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Machine Types Management</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_scope_delete display_value="">542ee3df47bf455ca57d14a0853cf090</sys_scope_delete>
+        <sys_update_name>sys_hub_category_e5ff6c17db7200103dbef35eae961972</sys_update_name>
+        <sys_update_version display_value="sys_hub_category_e5ff6c17db7200103dbef35eae961972">2bd3c965db070010a16b5a75dc9619e8</sys_update_version>
+        <sys_updated_by>rakesh.meda@snc</sys_updated_by>
+        <sys_updated_on>2020-02-18 14:20:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

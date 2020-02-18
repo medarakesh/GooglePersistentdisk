@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_base">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template>DATASTREAM</action_template>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>list_regions</internal_name>
+        <label_cache>[{"name":"{{action.project}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{action.orderby}}","label":"action➛OrderBy","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.projectid}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[38e3eb53-5071-4e29-b578-adf8b609d75a].pageToken}}","label":"step➛Pagination Setup➛pageToken","type":"step","ref":""},{"name":"{{step[38e3eb53-5071-4e29-b578-adf8b609d75a].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].variable2}}","label":"step➛Post Processing➛variable2","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].projectid}}","label":"step➛Post Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].orderby}}","label":"step➛Post Processing➛OrderBy","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].filter}}","label":"step➛Post Processing➛Filter","type":"step","ref":""},{"name":"{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].api_version}}","label":"step➛List Regions➛API Version","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>d5a16d4adb3600103dbef35eae961969</latest_snapshot>
+        <master_snapshot>c83164c5dbb200103dbef35eae9619f0</master_snapshot>
+        <name>List Regions</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 05:41:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b38cb047dbaa00103dbef35eae9619be</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>List Regions</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b38cb047dbaa00103dbef35eae9619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 16:05:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=b38cb047dbaa00103dbef35eae9619be"/>
+    <sys_variable_value action="DELETE" query="document_key=b38cb047dbaa00103dbef35eae9619be"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>b38cb047dbaa00103dbef35eae9619be</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 06:08:17</sys_created_on>
+        <sys_id>84a2cd0bdbaa00103dbef35eae9619d1</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 16:05:08</sys_updated_on>
+        <value>{"serializationFormat":"JSON","complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD963336514c360010f5113695de5077a5":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD963336514c360010f5113695de5077a5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Region\",\"mandatory\":\"false\",\"uiUniqueId\":\"534a0f20-4796-47c3-888c-f6fe7f6d7e46\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD963336514c360010f5113695de5077a5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"version":"1.0"}</value>
+        <variable display_value="">ff92cd0bdbaa00103dbef35eae9619a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=b38cb047dbaa00103dbef35eae9619be"/>
+    <sys_element_mapping action="DELETE">
+        <field>ds_parsed_stream</field>
+        <id>b38cb047dbaa00103dbef35eae9619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 06:08:17</sys_created_on>
+        <sys_id>8ca2cd0bdbaa00103dbef35eae9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 06:08:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table>
+        <value>{{step[127c6ad7-c03e-4423-8732-61a5f4cb3171].parsed_stream}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>error_code</field>
+        <id>b38cb047dbaa00103dbef35eae9619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 05:44:03</sys_created_on>
+        <sys_id>011d3847dbaa00103dbef35eae961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 05:44:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table>
+        <value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>error_message</field>
+        <id>b38cb047dbaa00103dbef35eae9619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 05:44:03</sys_created_on>
+        <sys_id>c51d3847dbaa00103dbef35eae96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 05:44:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table>
+        <value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>quotas</field>
+        <id>b38cb047dbaa00103dbef35eae9619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 06:08:17</sys_created_on>
+        <sys_id>c8a2cd0bdbaa00103dbef35eae9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 06:08:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>region</field>
+        <id>b38cb047dbaa00103dbef35eae9619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 06:08:17</sys_created_on>
+        <sys_id>40a2cd0bdbaa00103dbef35eae9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 06:08:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>response_headers</field>
+        <id>b38cb047dbaa00103dbef35eae9619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 05:44:03</sys_created_on>
+        <sys_id>891d3847dbaa00103dbef35eae96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 05:44:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table>
+        <value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].response_headers}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>status_code</field>
+        <id>b38cb047dbaa00103dbef35eae9619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 05:44:03</sys_created_on>
+        <sys_id>4d1d3847dbaa00103dbef35eae96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 05:44:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table>
+        <value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].status_code}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</application>
+        <file_path/>
+        <instance_id>0c4cf562dbcd001452dd2f17d49619fc</instance_id>
+        <instance_name>emppmalladi1</instance_name>
+        <name>sys_hub_action_type_definition_b38cb047dbaa00103dbef35eae9619be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_base"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template>DATASTREAM</action_template><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><ih_action>true</ih_action><internal_name>list_regions</internal_name><label_cache>[{"name":"{{action.project}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{action.orderby}}","label":"action➛OrderBy","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.projectid}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[38e3eb53-5071-4e29-b578-adf8b609d75a].pageToken}}","label":"step➛Pagination Setup➛pageToken","type":"step","ref":""},{"name":"{{step[38e3eb53-5071-4e29-b578-adf8b609d75a].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].variable2}}","label":"step➛Post Processing➛variable2","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].projectid}}","label":"step➛Post Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].orderby}}","label":"step➛Post Processing➛OrderBy","type":"step","ref":""},{"name":"{{step[ea5b4896-3e38-4110-873f-b8f3c83eb9ff].filter}}","label":"step➛Post Processing➛Filter","type":"step","ref":""},{"name":"{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].api_version}}","label":"step➛List Regions➛API Version","type":"step","ref":""}]</label_cache><latest_snapshot>d5a16d4adb3600103dbef35eae961969</latest_snapshot><master_snapshot>c83164c5dbb200103dbef35eae9619f0</master_snapshot><name>List Regions</name><natlang/><outputs/><outputs/><state>published</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 05:41:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b38cb047dbaa00103dbef35eae9619be</sys_id><sys_mod_count>40</sys_mod_count><sys_name>List Regions</sys_name><sys_overrides/><sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package><sys_policy/><sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope><sys_update_name>sys_hub_action_type_definition_b38cb047dbaa00103dbef35eae9619be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-07 16:05:42</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=b38cb047dbaa00103dbef35eae9619be"/><sys_variable_value action="delete_multiple" query="document_key=b38cb047dbaa00103dbef35eae9619be"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_type_definition</document><document_key>b38cb047dbaa00103dbef35eae9619be</document_key><order>11</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 06:08:17</sys_created_on><sys_id>84a2cd0bdbaa00103dbef35eae9619d1</sys_id><sys_mod_count>19</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-07 16:05:08</sys_updated_on><value>{"serializationFormat":"JSON","complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD963336514c360010f5113695de5077a5":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD963336514c360010f5113695de5077a5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Region\",\"mandatory\":\"false\",\"uiUniqueId\":\"534a0f20-4796-47c3-888c-f6fe7f6d7e46\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD963336514c360010f5113695de5077a5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"version":"1.0"}</value><variable display_value="">ff92cd0bdbaa00103dbef35eae9619a6</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=b38cb047dbaa00103dbef35eae9619be"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>ds_parsed_stream</field><id>b38cb047dbaa00103dbef35eae9619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 06:08:17</sys_created_on><sys_id>8ca2cd0bdbaa00103dbef35eae9619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-29 06:08:17</sys_updated_on><table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table><value>{{step[127c6ad7-c03e-4423-8732-61a5f4cb3171].parsed_stream}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>error_code</field><id>b38cb047dbaa00103dbef35eae9619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 05:44:03</sys_created_on><sys_id>011d3847dbaa00103dbef35eae961920</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-29 05:44:03</sys_updated_on><table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table><value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].error_code}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>error_message</field><id>b38cb047dbaa00103dbef35eae9619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 05:44:03</sys_created_on><sys_id>c51d3847dbaa00103dbef35eae96191f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-29 05:44:03</sys_updated_on><table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table><value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].error_message}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>quotas</field><id>b38cb047dbaa00103dbef35eae9619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 06:08:17</sys_created_on><sys_id>c8a2cd0bdbaa00103dbef35eae9619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-29 06:08:17</sys_updated_on><table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>region</field><id>b38cb047dbaa00103dbef35eae9619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 06:08:17</sys_created_on><sys_id>40a2cd0bdbaa00103dbef35eae9619d1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-29 06:08:17</sys_updated_on><table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>response_headers</field><id>b38cb047dbaa00103dbef35eae9619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 05:44:03</sys_created_on><sys_id>891d3847dbaa00103dbef35eae96191f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-29 05:44:03</sys_updated_on><table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table><value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].response_headers}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>status_code</field><id>b38cb047dbaa00103dbef35eae9619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-29 05:44:03</sys_created_on><sys_id>4d1d3847dbaa00103dbef35eae96191f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-29 05:44:03</sys_updated_on><table>var__m_sys_hub_action_output_b38cb047dbaa00103dbef35eae9619be</table><value>{{step[13599cef-2c64-4191-bcc9-9dbb4feab088].status_code}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-683322911</payload_hash>
+        <record_name>List Regions</record_name>
+        <reverted_from/>
+        <source>16110da9dbc30010a16b5a75dc961944</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 11:16:02</sys_created_on>
+        <sys_id>8fd841e9db070010a16b5a75dc961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170580318430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 11:16:02</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>0fd841e9a2070010c4d72117144de900</update_guid>
+        <update_guid_history>0fd841e9a2070010c4d72117144de900:0,4913cda116070010ccf7f0f64fc07df4:0,e9c40429270f001064a1cb370085c72d:734375896,3c92c461a50f0010dae1af65732287e3:0,87aefb19a0cb001083ec327833572f35:0,aadcfb51c7cb0010c1ff26b5f5ffb4eb:1124769962,22a8a3682672001081207078ac6d1446:-1714438821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 11:45:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>20c0f2e860f747409509730f26c28240</sys_id>
+        <sys_metadata>b38cb047dbaa00103dbef35eae9619be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Regions</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_scope_delete display_value="">542ee3df47bf455ca57d14a0853cf090</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_b38cb047dbaa00103dbef35eae9619be</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_b38cb047dbaa00103dbef35eae9619be">8fd841e9db070010a16b5a75dc961900</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 11:45:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

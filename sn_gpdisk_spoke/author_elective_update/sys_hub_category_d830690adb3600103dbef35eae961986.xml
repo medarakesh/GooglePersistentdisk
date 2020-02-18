@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="DELETE">
+        <name>Zone Management</name>
+        <order>200</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 15:59:14</sys_created_on>
+        <sys_id>d830690adb3600103dbef35eae961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zone Management</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_hub_category_d830690adb3600103dbef35eae961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 15:59:14</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="DELETE" query="documentkey=d830690adb3600103dbef35eae961986"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</application>
+        <file_path/>
+        <instance_id>0c4cf562dbcd001452dd2f17d49619fc</instance_id>
+        <instance_name>emppmalladi1</instance_name>
+        <name>sys_hub_category_d830690adb3600103dbef35eae961986</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Zone Management</name>
+        <order>200</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 15:59:14</sys_created_on>
+        <sys_id>d830690adb3600103dbef35eae961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zone Management</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_hub_category_d830690adb3600103dbef35eae961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 15:59:14</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=d830690adb3600103dbef35eae961986"/>
+</record_update>]]></payload>
+        <payload_hash>1392395317</payload_hash>
+        <record_name>Zone Management</record_name>
+        <reverted_from/>
+        <source>57304da9dbc30010a16b5a75dc961900</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 10:54:13</sys_created_on>
+        <sys_id>afd3c965db070010a16b5a75dc9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17057ef1e1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 10:54:13</sys_updated_on>
+        <type>Action Category</type>
+        <update_guid>2fd3c9652107001095d7a7bd9bd68ae5</update_guid>
+        <update_guid_history>2fd3c9652107001095d7a7bd9bd68ae5:0,d725c469940f0010df1b477c56b9859e:1759379751,8c7fb7d95acb001082ef803ee520d914:-468525054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 11:15:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_category">sys_hub_category</sys_db_object>
+        <sys_id>1317204f6ebc4b109565bf98e9965304</sys_id>
+        <sys_metadata>d830690adb3600103dbef35eae961986</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zone Management</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_scope_delete display_value="">542ee3df47bf455ca57d14a0853cf090</sys_scope_delete>
+        <sys_update_name>sys_hub_category_d830690adb3600103dbef35eae961986</sys_update_name>
+        <sys_update_version display_value="sys_hub_category_d830690adb3600103dbef35eae961986">afd3c965db070010a16b5a75dc9619e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 11:15:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
