@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd3c30eafaeb200107722fc0159305b11</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>06a7f79ddb8b0010c5267bfdae9619b4</scope_name>
+        <serialized_content>{"FlowDesigner:FDd3c30eafaeb200107722fc0159305b11":{"$COCollectionField":[{"disk":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"boot":"Boolean","boot.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Boot\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Disks\",\"mandatory\":\"false\",\"child_name\":\"disk\",\"uiUniqueId\":\"cf17dc94-087e-4a5e-884e-fcdb36504f39\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd3c30eafaeb200107722fc0159305b11\",\"child_label\":\"Disk\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ce23c19f-851c-4188-80fc-bc62ac4f0ef8\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd3c30eafaeb200107722fc0159305b11.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Disks\",\"mandatory\":\"false\",\"child_name\":\"disk\",\"uiUniqueId\":\"cf17dc94-087e-4a5e-884e-fcdb36504f39\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDd3c30eafaeb200107722fc0159305b11\",\"child_label\":\"Disk\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ce23c19f-851c-4188-80fc-bc62ac4f0ef8\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-12 10:25:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97c30eafdbb200103dbef35eae961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDd3c30eafaeb200107722fc0159305b11</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_complex_object_97c30eafdbb200103dbef35eae961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-12 10:25:42</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
