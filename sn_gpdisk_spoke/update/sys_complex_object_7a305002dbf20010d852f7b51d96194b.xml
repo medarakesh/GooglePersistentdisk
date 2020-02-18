@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb630500201f20010853f96ac9d09b34b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>06a7f79ddb8b0010c5267bfdae9619b4</scope_name>
+        <serialized_content>{"FlowDesigner:FDb630500201f20010853f96ac9d09b34b":{"disks":[{"$83_disks":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"disks.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Disks\",\"mandatory\":\"false\",\"child_name\":\"disk\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Disk\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"06bd78bb-57d7-4a60-882d-21b8a9161bef\"}"}},"FlowDesigner:FDb630500201f20010853f96ac9d09b34b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Region\",\"mandatory\":\"false\",\"uiUniqueId\":\"55aee56d-0672-4735-a373-2b46eb2c9347\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FDb630500201f20010853f96ac9d09b34b\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 10:09:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a305002dbf20010d852f7b51d96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDb630500201f20010853f96ac9d09b34b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_complex_object_7a305002dbf20010d852f7b51d96194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 10:09:53</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
