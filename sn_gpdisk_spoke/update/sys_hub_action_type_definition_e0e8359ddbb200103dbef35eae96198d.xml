@@ -91,7 +91,7 @@
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
         outputs.status = 'Error';
-        outputs.errormessage = new GCComputeErrorHandler().errorMessageHandling(inputs, outputs);
+        outputs.errormessage = new GCPersistentDiskErrorHandler().errorMessageHandling(inputs, outputs);
         return;
     }
     outputs.status = 'Success';
@@ -441,7 +441,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:00:36</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone','diskname']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
@@ -1783,7 +1783,7 @@
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
         outputs.status = 'Error';
-        outputs.errormessage = new GCComputeErrorHandler().errorMessageHandling(inputs, outputs);
+        outputs.errormessage = new GCPersistentDiskErrorHandler().errorMessageHandling(inputs, outputs);
         return;
     }
     outputs.status = 'Success';
@@ -2133,7 +2133,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:00:36</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone','diskname']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
@@ -4538,7 +4538,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-06 06:36:59</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone','diskname']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
@@ -5539,7 +5539,7 @@
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
         outputs.status = 'Error';
-        outputs.errormessage = new GCComputeErrorHandler().errorMessageHandling(inputs, outputs);
+        outputs.errormessage = new GCPersistentDiskErrorHandler().errorMessageHandling(inputs, outputs);
         return;
     }
     outputs.status = 'Success';
@@ -6230,7 +6230,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-06 06:36:59</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone','diskname']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
@@ -7231,7 +7231,7 @@
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
         outputs.status = 'Error';
-        outputs.errormessage = new GCComputeErrorHandler().errorMessageHandling(inputs, outputs);
+        outputs.errormessage = new GCPersistentDiskErrorHandler().errorMessageHandling(inputs, outputs);
         return;
     }
     outputs.status = 'Success';

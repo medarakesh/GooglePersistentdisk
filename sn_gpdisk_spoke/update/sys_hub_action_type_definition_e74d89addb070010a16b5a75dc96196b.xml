@@ -1169,7 +1169,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-18 11:35:29</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
@@ -3664,7 +3664,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-18 11:35:29</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
@@ -5519,7 +5519,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-18 11:35:58</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
@@ -8014,7 +8014,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-18 11:35:58</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);

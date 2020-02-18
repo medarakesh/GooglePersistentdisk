@@ -2,13 +2,13 @@
     <sys_script_include action="DELETE">
         <access>public</access>
         <active>true</active>
-        <api_name>sn_gcompute_spoke.GCComputeErrorHandler</api_name>
+        <api_name>sn_gcompute_spoke.GCPersistentDiskErrorHandler</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <name>GCComputeErrorHandler</name>
-        <script><![CDATA[var GCComputeErrorHandler = Class.create();
-GCComputeErrorHandler.prototype = {
+        <name>GCPersistentDiskErrorHandler</name>
+        <script><![CDATA[var GCPersistentDiskErrorHandler = Class.create();
+GCPersistentDiskErrorHandler.prototype = {
     initialize: function() {
     },
 	errorMessageHandling: function(inputs,outputs){
@@ -17,14 +17,14 @@ GCComputeErrorHandler.prototype = {
 		return outputs.errormessage;
 	},
 
-    type: 'GCComputeErrorHandler'
+    type: 'GCPersistentDiskErrorHandler'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-04 06:57:21</sys_created_on>
         <sys_id>93370409db7200103dbef35eae9619b6</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name>GCComputeErrorHandler</sys_name>
+        <sys_name>GCPersistentDiskErrorHandler</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
@@ -43,13 +43,13 @@ GCComputeErrorHandler.prototype = {
     &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
         &lt;access&gt;public&lt;/access&gt;
         &lt;active&gt;true&lt;/active&gt;
-        &lt;api_name&gt;sn_gcompute_spoke.GCComputeErrorHandler&lt;/api_name&gt;
+        &lt;api_name&gt;sn_gcompute_spoke.GCPersistentDiskErrorHandler&lt;/api_name&gt;
         &lt;caller_access/&gt;
         &lt;client_callable&gt;false&lt;/client_callable&gt;
         &lt;description/&gt;
-        &lt;name&gt;GCComputeErrorHandler&lt;/name&gt;
-        &lt;script&gt;&lt;![CDATA[var GCComputeErrorHandler = Class.create();
-GCComputeErrorHandler.prototype = {
+        &lt;name&gt;GCPersistentDiskErrorHandler&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var GCPersistentDiskErrorHandler = Class.create();
+GCPersistentDiskErrorHandler.prototype = {
     initialize: function() {
     },
 	errorMessageHandling: function(inputs,outputs){
@@ -58,14 +58,14 @@ GCComputeErrorHandler.prototype = {
 		return outputs.errormessage;
 	},
 
-    type: 'GCComputeErrorHandler'
+    type: 'GCPersistentDiskErrorHandler'
 };]]&gt;&lt;/script&gt;
         &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
         &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
         &lt;sys_created_on&gt;2020-02-04 06:57:21&lt;/sys_created_on&gt;
         &lt;sys_id&gt;93370409db7200103dbef35eae9619b6&lt;/sys_id&gt;
         &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
-        &lt;sys_name&gt;GCComputeErrorHandler&lt;/sys_name&gt;
+        &lt;sys_name&gt;GCPersistentDiskErrorHandler&lt;/sys_name&gt;
         &lt;sys_package display_value="Google Persistent Disk" source="sn_gcompute_spoke"&gt;06a7f79ddb8b0010c5267bfdae9619b4&lt;/sys_package&gt;
         &lt;sys_policy&gt;read&lt;/sys_policy&gt;
         &lt;sys_scope display_value="Google Persistent Disk"&gt;06a7f79ddb8b0010c5267bfdae9619b4&lt;/sys_scope&gt;
@@ -75,7 +75,7 @@ GCComputeErrorHandler.prototype = {
     &lt;/sys_script_include&gt;
 &lt;/record_update&gt;</payload>
         <payload_hash>683385670</payload_hash>
-        <record_name>GCComputeErrorHandler</record_name>
+        <record_name>GCPersistentDiskErrorHandler</record_name>
         <reverted_from/>
         <source>57304da9dbc30010a16b5a75dc961900</source>
         <source_table>sys_upgrade_history</source_table>
@@ -100,7 +100,7 @@ GCComputeErrorHandler.prototype = {
         <sys_id>8c24b35c0bf140469823226357afcf39</sys_id>
         <sys_metadata>93370409db7200103dbef35eae9619b6</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>GCComputeErrorHandler</sys_name>
+        <sys_name>GCPersistentDiskErrorHandler</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_parent/>
         <sys_policy>read</sys_policy>
