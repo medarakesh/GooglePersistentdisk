@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>fetch_snapshots</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].variable}}","label":"step➛Fetch snapshots➛variable","type":"step","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].snapshots}}","label":"step➛Fetch snapshots➛Snapshots","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>d3abcd71db070010a16b5a75dc96190d</latest_snapshot>
+        <latest_snapshot>90baa092db070010c5267bfdae9619f2</latest_snapshot>
         <master_snapshot>873c434bdb720010d852f7b51d961952</master_snapshot>
         <name>Fetch Snapshots</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>578b0b0bdb720010d852f7b51d961973</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Fetch Snapshots</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_578b0b0bdb720010d852f7b51d961973</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:40:31</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:59:41</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -813,17 +813,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Fetch Snapshots">578b0b0bdb720010d852f7b51d961973</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5f3c434bdb720010d852f7b51d9619bf","name":"plan"}}</plan>
-        <snapshot>d3abcd71db070010a16b5a75dc96190d</snapshot>
+        <snapshot>90baa092db070010c5267bfdae9619f2</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 02:25:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f3c434bdb720010d852f7b51d9619bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 06:06:54</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:59:42</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -849,15 +849,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>873c434bdb720010d852f7b51d961952</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 02:25:12</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:59:41</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
