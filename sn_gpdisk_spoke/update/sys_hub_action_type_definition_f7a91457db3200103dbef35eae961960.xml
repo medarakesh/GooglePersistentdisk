@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>get_image</internal_name>
         <label_cache>[{"name":"{{action.project}}","label":"action➛Project","type":"action","ref":""},{"name":"{{action.image}}","label":"action➛Image","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[b91689af-c0a6-4937-9f6a-9ce1d58462ec].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[b91689af-c0a6-4937-9f6a-9ce1d58462ec].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[b91689af-c0a6-4937-9f6a-9ce1d58462ec].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[b91689af-c0a6-4937-9f6a-9ce1d58462ec].image}}","label":"step➛Pre Processing➛Image","type":"step","ref":""},{"name":"{{step[4d4f53ac-c6d9-47c7-8a26-435124064adc].api_version}}","label":"step➛Get Image➛API Version","type":"step","ref":""},{"name":"{{step[4d4f53ac-c6d9-47c7-8a26-435124064adc].status_code}}","label":"step➛Get Image➛Status Code","type":"step","ref":""},{"name":"{{step[4d4f53ac-c6d9-47c7-8a26-435124064adc].response_body}}","label":"step➛Get Image➛Response Body","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image}}","label":"step➛Post Processing➛Image","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child1}}","label":"step➛Post Processing➛Image➛Image_child1","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Name}}","label":"step➛Post Processing➛Image➛Name","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.name}}","label":"step➛Post Processing➛Image➛Name","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child2}}","label":"step➛Post Processing➛Image➛Image_child2","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child3}}","label":"step➛Post Processing➛Image➛Image_child3","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child5}}","label":"step➛Post Processing➛Image➛Image_child5","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.ID}}","label":"step➛Post Processing➛Image➛ID","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.id}}","label":"step➛Post Processing➛Image➛ID","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Creation_Time_Stamp}}","label":"step➛Post Processing➛Image➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.creationTimestamp}}","label":"step➛Post Processing➛Image➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.source_Type}}","label":"step➛Post Processing➛Image➛source Type","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Source_Type}}","label":"step➛Post Processing➛Image➛Source Type","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.sourceType}}","label":"step➛Post Processing➛Image➛Source Type","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Status}}","label":"step➛Post Processing➛Image➛Status","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.status}}","label":"step➛Post Processing➛Image➛Status","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child6}}","label":"step➛Post Processing➛Image➛Image_child6","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child7}}","label":"step➛Post Processing➛Image➛Image_child7","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child8}}","label":"step➛Post Processing➛Image➛Image_child8","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Disk}}","label":"step➛Post Processing➛Image➛Disk","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Disk_Size_GB}}","label":"step➛Post Processing➛Image➛Disk Size GB","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.diskSizeGB}}","label":"step➛Post Processing➛Image➛Disk Size GB","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Self_Link}}","label":"step➛Post Processing➛Image➛Self Link","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.selfLink}}","label":"step➛Post Processing➛Image➛Self Link","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Lable_Fingerprint}}","label":"step➛Post Processing➛Image➛Lable Fingerprint","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.lableFingerprint}}","label":"step➛Post Processing➛Image➛Lable Fingerprint","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child9}}","label":"step➛Post Processing➛Image➛Image_child9","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.sourceSnapshot}}","label":"step➛Post Processing➛Image➛Source Snapshot","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Source_Snapshot_ID}}","label":"step➛Post Processing➛Image➛Source Snapshot ID","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.sourceSnapshotId}}","label":"step➛Post Processing➛Image➛Source Snapshot ID","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.image_child11}}","label":"step➛Post Processing➛Image➛Image_child11","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.Storage_Locations}}","label":"step➛Post Processing➛Image➛Storage Locations","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.storageLocations}}","label":"step➛Post Processing➛Image➛Storage Locations","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.storageLocations.Storage_Location}}","label":"step➛Post Processing➛Image➛Storage Locations➛Storage Location","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].image.storageLocations.storageLocation}}","label":"step➛Post Processing➛Image➛Storage Locations➛Storage Location","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].variable14}}","label":"step➛Post Processing➛variable14","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].status}}","label":"step➛Post Processing➛status","type":"step","ref":""},{"name":"{{step[77477135-0e83-49e9-84c7-b15bd26a2a02].errormessage}}","label":"step➛Post Processing➛errormessage","type":"step","ref":""},{"name":"{{step[4d4f53ac-c6d9-47c7-8a26-435124064adc].u_api_version}}","label":"step➛Get Image➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>240a2971db830010a16b5a75dc9619d2</latest_snapshot>
+        <latest_snapshot>48d98a46db0f0010a16b5a75dc9619a4</latest_snapshot>
         <master_snapshot>7d09289fdb3200103dbef35eae961974</master_snapshot>
         <name>Get Image</name>
         <natlang/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f7a91457db3200103dbef35eae961960</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Get Image</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f7a91457db3200103dbef35eae961960</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:19:26</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -94,10 +94,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>0a9b5497db3200103dbef35eae96190d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:56</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0a9b5497db3200103dbef35eae96190d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -249,14 +249,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>469b5497db3200103dbef35eae961914</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:56</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -330,14 +330,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>c29b5497db3200103dbef35eae961910</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:56</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -412,14 +412,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>829b5497db3200103dbef35eae96191a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:18:29</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -493,14 +493,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:18</sys_created_on>
         <sys_id>8df8a49fdb3200103dbef35eae961958</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:18</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -574,14 +574,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:18</sys_created_on>
         <sys_id>c5f8a49fdb3200103dbef35eae961951</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:18</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -609,10 +609,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:55</sys_created_on>
         <sys_id>a19b1497db3200103dbef35eae9619d4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:55</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a19b1497db3200103dbef35eae9619d4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -637,17 +637,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:55</sys_created_on>
         <sys_id>fd9b1497db3200103dbef35eae9619ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:55</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid','image']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a19b1497db3200103dbef35eae9619d4"/>
@@ -1468,14 +1466,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:54</sys_created_on>
         <sys_id>e59bd857db3200103dbef35eae961929</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:54</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1549,14 +1547,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:41:04</sys_created_on>
         <sys_id>f842609bdb3200103dbef35eae961926</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:07:33</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1576,9 +1574,9 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:41:04</sys_created_on>
         <sys_id>bc42609bdb3200103dbef35eae96192c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:43</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc42609bdb3200103dbef35eae96192c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1660,14 +1658,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:19</sys_created_on>
         <sys_id>4df8a49fdb3200103dbef35eae961966</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:19</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1743,14 +1741,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:19</sys_created_on>
         <sys_id>81f8a49fdb3200103dbef35eae96196c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:19</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1826,14 +1824,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:57</sys_created_on>
         <sys_id>ca9b5497db3200103dbef35eae961927</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:57</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1862,10 +1860,10 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>0a9b5497db3200103dbef35eae96190d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:56</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0a9b5497db3200103dbef35eae96190d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2017,14 +2015,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>469b5497db3200103dbef35eae961914</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:56</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2098,14 +2096,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>c29b5497db3200103dbef35eae961910</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:56</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2180,14 +2178,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:56</sys_created_on>
         <sys_id>829b5497db3200103dbef35eae96191a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:18:29</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2261,14 +2259,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:18</sys_created_on>
         <sys_id>8df8a49fdb3200103dbef35eae961958</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:18</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2342,14 +2340,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:18</sys_created_on>
         <sys_id>c5f8a49fdb3200103dbef35eae961951</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:18</sys_updated_on>
+        <sys_updated_on>2020-02-20 16:38:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2377,10 +2375,10 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:55</sys_created_on>
         <sys_id>a19b1497db3200103dbef35eae9619d4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:55</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a19b1497db3200103dbef35eae9619d4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2405,17 +2403,15 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:11:55</sys_created_on>
         <sys_id>fd9b1497db3200103dbef35eae9619ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:11:55</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid','image']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a19b1497db3200103dbef35eae9619d4"/>
@@ -3220,27 +3216,8 @@ var gcc = new GooglePersistentDiskUtils();
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960^sys_idNOT INfc58205fdb3200103dbef35eae9619db,b842609bdb3200103dbef35eae961929,b858205fdb3200103dbef35eae9619dc,d3f9e571db830010a16b5a75dc9619f1,9ff9e571db830010a16b5a75dc9619f1,5bf9e571db830010a16b5a75dc9619f2,17f9e571db830010a16b5a75dc9619f3,dff9e571db830010a16b5a75dc9619f3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960^sys_idNOT INb842609bdb3200103dbef35eae961929,fc58205fdb3200103dbef35eae9619db,b858205fdb3200103dbef35eae9619dc,d3f9e571db830010a16b5a75dc9619f1,9ff9e571db830010a16b5a75dc9619f1,5bf9e571db830010a16b5a75dc9619f2,17f9e571db830010a16b5a75dc9619f3,dff9e571db830010a16b5a75dc9619f3"/>
     <sys_choice field="image" table="var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>image</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>IMAGE-3</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-02-11 09:07:33</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fc58205fdb3200103dbef35eae9619db</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
-            <value>image-3</value>
-        </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>image</element>
@@ -3249,16 +3226,35 @@ var gcc = new GooglePersistentDiskUtils();
             <label>-- None --</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>1</sequence>
+            <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-11 08:41:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b842609bdb3200103dbef35eae961929</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
             <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>image</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IMAGE-3</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 09:07:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc58205fdb3200103dbef35eae9619db</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
+            <value>image-3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -3268,15 +3264,15 @@ var gcc = new GooglePersistentDiskUtils();
             <label>IMAGE-4</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-11 09:07:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b858205fdb3200103dbef35eae9619dc</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
             <value>image-4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3287,15 +3283,15 @@ var gcc = new GooglePersistentDiskUtils();
             <label>IMAGE-DISK1-1001</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-19 08:19:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d3f9e571db830010a16b5a75dc9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
             <value>image-disk1-1001</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3306,15 +3302,15 @@ var gcc = new GooglePersistentDiskUtils();
             <label>IMAGE-DISK1-1002</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-19 08:19:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9ff9e571db830010a16b5a75dc9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
             <value>image-disk1-1002</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3325,15 +3321,15 @@ var gcc = new GooglePersistentDiskUtils();
             <label>IMAGE-IMAGE1-1001</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-19 08:19:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5bf9e571db830010a16b5a75dc9619f2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
             <value>image-image1-1001</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3344,15 +3340,15 @@ var gcc = new GooglePersistentDiskUtils();
             <label>IMAGE-IMAGE1-1002</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-19 08:19:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>17f9e571db830010a16b5a75dc9619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
             <value>image-image1-1002</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3363,15 +3359,15 @@ var gcc = new GooglePersistentDiskUtils();
             <label>IMAGE-SNAPSHOT-1001</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_f7a91457db3200103dbef35eae961960</name>
-            <sequence>6</sequence>
+            <sequence>7</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-19 08:19:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>dff9e571db830010a16b5a75dc9619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-19 08:19:15</sys_updated_on>
+            <sys_updated_on>2020-02-20 05:16:36</sys_updated_on>
             <value>image-snapshot-1001</value>
         </sys_choice>
     </sys_choice>
@@ -3449,17 +3445,17 @@ var gcc = new GooglePersistentDiskUtils();
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Image">f7a91457db3200103dbef35eae961960</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8f09689fdb3200103dbef35eae9619a7","name":"plan"}}</plan>
-        <snapshot>240a2971db830010a16b5a75dc9619d2</snapshot>
+        <snapshot>48d98a46db0f0010a16b5a75dc9619a4</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8f09689fdb3200103dbef35eae9619a7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:19:31</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:54</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3894,7 +3890,7 @@ var gcc = new GooglePersistentDiskUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD210aa971a28300108143c9276a2a5407,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=252d0cad-e3a8-42de-982c-b946cab682be</attributes>
+        <attributes>co_type_name=FDc9d9ca467c0f001070fd7c13b0959184,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=252d0cad-e3a8-42de-982c-b946cab682be</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3952,14 +3948,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:39</sys_created_on>
         <sys_id>8e09289fdb3200103dbef35eae9619df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:19:25</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4068,10 +4064,10 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:38</sys_created_on>
         <sys_id>b509289fdb3200103dbef35eae961989</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:38</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:50</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b509289fdb3200103dbef35eae961989"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4082,17 +4078,15 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:38</sys_created_on>
         <sys_id>bd09289fdb3200103dbef35eae9619a4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:38</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:50</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid','image']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4954,9 +4948,9 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:38</sys_created_on>
         <sys_id>3909289fdb3200103dbef35eae961986</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:19:24</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:50</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3909289fdb3200103dbef35eae961986"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5225,7 +5219,7 @@ var gcc = new GooglePersistentDiskUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDf10aa971a78300103fdd00f38ebdc519,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6d0dceb4-d11a-4143-ae4c-1dfaaffac376</attributes>
+        <attributes>co_type_name=FD85d9ca46240f00103b885ed8659ebc94,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6d0dceb4-d11a-4143-ae4c-1dfaaffac376</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5285,14 +5279,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:40</sys_created_on>
         <sys_id>9609289fdb3200103dbef35eae9619fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:19:26</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5662,7 +5656,7 @@ var gcc = new GooglePersistentDiskUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD210aa971a28300108143c9276a2a5407,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=252d0cad-e3a8-42de-982c-b946cab682be</attributes>
+        <attributes>co_type_name=FDc9d9ca467c0f001070fd7c13b0959184,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=252d0cad-e3a8-42de-982c-b946cab682be</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5720,14 +5714,14 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:39</sys_created_on>
         <sys_id>8e09289fdb3200103dbef35eae9619df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:19:25</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5836,10 +5830,10 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:38</sys_created_on>
         <sys_id>b509289fdb3200103dbef35eae961989</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:38</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:50</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b509289fdb3200103dbef35eae961989"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5850,17 +5844,15 @@ var gcc = new GooglePersistentDiskUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:10:38</sys_created_on>
         <sys_id>bd09289fdb3200103dbef35eae9619a4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:10:38</sys_updated_on>
+        <sys_updated_on>2020-02-20 05:16:50</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid','image']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
