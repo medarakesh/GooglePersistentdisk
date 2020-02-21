@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>resize_disk</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.disk_name}}","label":"action➛Disk Name","type":"action","ref":""},{"name":"{{action.size_gb}}","label":"action➛Size GB","type":"action","ref":""},{"name":"{{step[1550790d-5937-4685-ac11-fe7a76afd5b7].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[1550790d-5937-4685-ac11-fe7a76afd5b7].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[1550790d-5937-4685-ac11-fe7a76afd5b7].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[1550790d-5937-4685-ac11-fe7a76afd5b7].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[1550790d-5937-4685-ac11-fe7a76afd5b7].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[1550790d-5937-4685-ac11-fe7a76afd5b7].diskname}}","label":"step➛Pre Processing➛DiskName","type":"step","ref":""},{"name":"{{step[6e5227ab-2402-49c4-b16d-b30e8de895b7].status_code}}","label":"step➛Resize Disk➛Status Code","type":"step","ref":""},{"name":"{{step[6e5227ab-2402-49c4-b16d-b30e8de895b7].response_body}}","label":"step➛Resize Disk➛Response Body","type":"step","ref":""},{"name":"{{step[f1fabcc6-62ff-42e9-9a2c-465739d5df3a].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f1fabcc6-62ff-42e9-9a2c-465739d5df3a].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[f1fabcc6-62ff-42e9-9a2c-465739d5df3a].status}}","label":"step➛Post Processing➛status","type":"step","ref":""},{"name":"{{step[f1fabcc6-62ff-42e9-9a2c-465739d5df3a].errormessage}}","label":"step➛Post Processing➛errormessage","type":"step","ref":""},{"name":"{{step[1550790d-5937-4685-ac11-fe7a76afd5b7].disksize}}","label":"step➛Pre Processing➛DiskSize","type":"step","ref":""},{"name":"{{step[6e5227ab-2402-49c4-b16d-b30e8de895b7].api_version}}","label":"step➛Resize Disk➛API Version","type":"step","ref":""},{"name":"{{step[6e5227ab-2402-49c4-b16d-b30e8de895b7].u_api_version}}","label":"step➛Resize Disk➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>6b6846c2db0f0010a16b5a75dc961911</latest_snapshot>
+        <latest_snapshot>e15f83dedbcb0010a16b5a75dc9619f8</latest_snapshot>
         <master_snapshot>c381f62ddb7200103dbef35eae96198d</master_snapshot>
         <name>Resize Disk</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>39771ea9dbfa00103dbef35eae961911</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name>Resize Disk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_39771ea9dbfa00103dbef35eae961911</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:38:58</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1281,10 +1281,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 07:04:25</sys_created_on>
         <sys_id>543c5ae9db3e0010d852f7b51d961919</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:07</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:58:49</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=543c5ae9db3e0010d852f7b51d961919"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1295,9 +1295,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 07:04:26</sys_created_on>
         <sys_id>683c5ae9db3e0010d852f7b51d961932</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:07</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:58:49</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -1307,7 +1307,8 @@
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);</value>
+})(inputs, outputs);
+</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1951,9 +1952,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 07:04:23</sys_created_on>
         <sys_id>3f2c1ae9db3e0010d852f7b51d9619bb</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:10:38</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:58:56</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3f2c1ae9db3e0010d852f7b51d9619bb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2059,9 +2060,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 07:04:23</sys_created_on>
         <sys_id>b72c1ae9db3e0010d852f7b51d9619c6</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:10:38</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:58:56</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b72c1ae9db3e0010d852f7b51d9619c6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3475,10 +3476,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 07:04:25</sys_created_on>
         <sys_id>543c5ae9db3e0010d852f7b51d961919</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:07</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:58:49</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=543c5ae9db3e0010d852f7b51d961919"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3489,9 +3490,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 07:04:26</sys_created_on>
         <sys_id>683c5ae9db3e0010d852f7b51d961932</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:07</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:58:49</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -3501,7 +3502,8 @@
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);</value>
+})(inputs, outputs);
+</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5394,17 +5396,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Resize Disk">39771ea9dbfa00103dbef35eae961911</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"05917a2ddb7200103dbef35eae96191e","name":"plan"}}</plan>
-        <snapshot>6b6846c2db0f0010a16b5a75dc961911</snapshot>
+        <snapshot>e15f83dedbcb0010a16b5a75dc9619f8</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05917a2ddb7200103dbef35eae96191e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:10:56</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:13</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5430,15 +5432,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c381f62ddb7200103dbef35eae96198d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:21:50</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -5486,10 +5488,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:46</sys_created_on>
         <sys_id>33813a2ddb7200103dbef35eae961929</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:26</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:06</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33813a2ddb7200103dbef35eae961929"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5500,9 +5502,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:47</sys_created_on>
         <sys_id>b3813a2ddb7200103dbef35eae961952</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:26</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:06</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -5512,7 +5514,8 @@
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);</value>
+})(inputs, outputs);
+</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7355,9 +7358,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:44</sys_created_on>
         <sys_id>d781f62ddb7200103dbef35eae9619c7</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:10:49</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:05</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d781f62ddb7200103dbef35eae9619c7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7463,9 +7466,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:44</sys_created_on>
         <sys_id>9f81f62ddb7200103dbef35eae9619d0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:10:49</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:05</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9f81f62ddb7200103dbef35eae9619d0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7680,10 +7683,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:46</sys_created_on>
         <sys_id>33813a2ddb7200103dbef35eae961929</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:26</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:06</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33813a2ddb7200103dbef35eae961929"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7694,9 +7697,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 08:37:47</sys_created_on>
         <sys_id>b3813a2ddb7200103dbef35eae961952</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 07:27:26</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:59:06</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -7706,7 +7709,8 @@
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);</value>
+})(inputs, outputs);
+</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

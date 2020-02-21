@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>fetch_images</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].variable}}","label":"step➛Fetch Images➛variable","type":"step","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].images}}","label":"step➛Fetch Images➛Images","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>846a6c52db070010c5267bfdae9619c5</latest_snapshot>
+        <latest_snapshot>46be439edbcb0010a16b5a75dc9619e6</latest_snapshot>
         <master_snapshot>9f12ec5bdb3200103dbef35eae961993</master_snapshot>
         <name>Fetch Images</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3c0281bdb3200103dbef35eae96192c</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Fetch Images</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a3c0281bdb3200103dbef35eae96192c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:58:20</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:20</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -70,10 +70,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:37:49</sys_created_on>
         <sys_id>c181645bdb3200103dbef35eae9619b4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:40:33</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c181645bdb3200103dbef35eae9619b4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -84,9 +84,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:37:50</sys_created_on>
         <sys_id>1181645bdb3200103dbef35eae9619c5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:33:25</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:13</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
@@ -105,8 +105,7 @@
     outputs.images = {
         data: images
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -362,7 +361,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Project ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Fetch Images">a3c0281bdb3200103dbef35eae96192c</model>
         <model_id>a3c0281bdb3200103dbef35eae96192c</model_id>
@@ -387,14 +386,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:37:49</sys_created_on>
         <sys_id>8981e05bdb3200103dbef35eae9619af</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:40:33</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -507,10 +506,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:37:49</sys_created_on>
         <sys_id>c181645bdb3200103dbef35eae9619b4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:40:33</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c181645bdb3200103dbef35eae9619b4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -521,9 +520,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:37:50</sys_created_on>
         <sys_id>1181645bdb3200103dbef35eae9619c5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:33:25</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:13</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
@@ -542,8 +541,7 @@
     outputs.images = {
         data: images
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -813,17 +811,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Fetch Images">a3c0281bdb3200103dbef35eae96192c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6f12ec5bdb3200103dbef35eae9619f2","name":"plan"}}</plan>
-        <snapshot>846a6c52db070010c5267bfdae9619c5</snapshot>
+        <snapshot>46be439edbcb0010a16b5a75dc9619e6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:40:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f12ec5bdb3200103dbef35eae9619f2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:58:23</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:22</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -893,10 +891,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:40:25</sys_created_on>
         <sys_id>1f12ec5bdb3200103dbef35eae9619a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:33:35</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1f12ec5bdb3200103dbef35eae9619a7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -907,9 +905,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:40:25</sys_created_on>
         <sys_id>5f12ec5bdb3200103dbef35eae9619b8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:33:35</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:20</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
@@ -928,8 +926,7 @@
     outputs.images = {
         data: images
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1185,7 +1182,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Project ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Fetch Images">9f12ec5bdb3200103dbef35eae961993</model>
         <model_id>9f12ec5bdb3200103dbef35eae961993</model_id>
@@ -1210,14 +1207,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:40:25</sys_created_on>
         <sys_id>db12ec5bdb3200103dbef35eae961994</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 08:40:25</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1330,10 +1327,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:40:25</sys_created_on>
         <sys_id>1f12ec5bdb3200103dbef35eae9619a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:33:35</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1f12ec5bdb3200103dbef35eae9619a7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1344,9 +1341,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 08:40:25</sys_created_on>
         <sys_id>5f12ec5bdb3200103dbef35eae9619b8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:33:35</sys_updated_on>
+        <sys_updated_on>2020-02-21 04:56:20</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
@@ -1365,8 +1362,7 @@
     outputs.images = {
         data: images
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

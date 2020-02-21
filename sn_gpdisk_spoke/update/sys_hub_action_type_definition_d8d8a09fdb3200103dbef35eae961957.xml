@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>create_image_on_snapshot</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.disk}}","label":"action➛Disk","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.labels}}","label":"action➛Labels","type":"action","ref":""},{"name":"{{action.labels.Label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label.Key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.Value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.labels.label.value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.snapshot}}","label":"action➛Snapshot","type":"action","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10]._}}","label":"step➛Pre Processing➛","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].disk}}","label":"step➛Pre Processing➛Disk","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].requestbody}}","label":"step➛Pre Processing➛requestBody","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].response_body}}","label":"step➛Create Image➛Response Body","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].status_code}}","label":"step➛Create Image➛Status Code","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image}}","label":"step➛Post Processing➛Image","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].u_api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>b5790246db0f0010a16b5a75dc96193e</latest_snapshot>
+        <latest_snapshot>01401f12db0f0010a16b5a75dc9619df</latest_snapshot>
         <master_snapshot>11ba6013db7200103dbef35eae961919</master_snapshot>
         <name>Create Image For Snapshot</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d8d8a09fdb3200103dbef35eae961957</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Create Image For Snapshot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d8d8a09fdb3200103dbef35eae961957</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:38:39</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:11</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -840,10 +840,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:09:46</sys_created_on>
         <sys_id>81d8e09fdb3200103dbef35eae961946</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:09:46</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:02:48</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=81d8e09fdb3200103dbef35eae961946"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -854,9 +854,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:09:46</sys_created_on>
         <sys_id>59d8e09fdb3200103dbef35eae96196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:09:46</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:02:48</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -867,8 +867,7 @@
     outputs.status = 'Success';
     outputs.image = responseBody;
 
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1849,9 +1848,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:13:21</sys_created_on>
         <sys_id>3da9ac9fdb3200103dbef35eae9619c9</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:15:10</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:02:59</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3da9ac9fdb3200103dbef35eae9619c9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2115,7 +2114,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=bbea04f8-9c42-4f4c-8dc9-5839933c5745,co_type_name=FDef531c53de320010eba70fb28203e64e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
+        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=13e4b6f6-48ac-43dd-b637-d095c39510a9,co_type_name=FDef531c53de320010eba70fb28203e64e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2173,14 +2172,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:09:44</sys_created_on>
         <sys_id>e8d8a09fdb3200103dbef35eae9619b9</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 16:38:41</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:02:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3205,10 +3204,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:09:46</sys_created_on>
         <sys_id>81d8e09fdb3200103dbef35eae961946</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:09:46</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:02:48</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=81d8e09fdb3200103dbef35eae961946"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3219,9 +3218,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:09:46</sys_created_on>
         <sys_id>59d8e09fdb3200103dbef35eae96196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:09:46</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:02:48</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -3232,8 +3231,7 @@
     outputs.status = 'Success';
     outputs.image = responseBody;
 
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5825,17 +5823,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Create Image For Snapshot">d8d8a09fdb3200103dbef35eae961957</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d3baa013db7200103dbef35eae9619ad","name":"plan"}}</plan>
-        <snapshot>b5790246db0f0010a16b5a75dc96193e</snapshot>
+        <snapshot>01401f12db0f0010a16b5a75dc9619df</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3baa013db7200103dbef35eae9619ad</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:15:26</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:15</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5861,15 +5859,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>11ba6013db7200103dbef35eae961919</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:35:50</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:09</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -6651,10 +6649,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:01</sys_created_on>
         <sys_id>b5ba6013db7200103dbef35eae96199a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:18:01</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b5ba6013db7200103dbef35eae96199a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6679,9 +6677,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:01</sys_created_on>
         <sys_id>caba6013db7200103dbef35eae9619be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:18:01</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:10</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -6692,8 +6690,7 @@
     outputs.status = 'Success';
     outputs.image = responseBody;
 
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b5ba6013db7200103dbef35eae96199a"/>
@@ -7075,7 +7072,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDc3794246c20f00101f79e5c72518417e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
+        <attributes>co_type_name=FD96409f12240f0010667610fb39b80200,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7133,14 +7130,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:01</sys_created_on>
         <sys_id>caba6013db7200103dbef35eae9619a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:15:20</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7822,9 +7819,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:17:59</sys_created_on>
         <sys_id>a9ba6013db7200103dbef35eae96192e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:15:19</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:09</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a9ba6013db7200103dbef35eae96192e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7926,7 +7923,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=bbea04f8-9c42-4f4c-8dc9-5839933c5745,co_type_name=FD7a794246060f00101ea0100f12cd4c1f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
+        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=13e4b6f6-48ac-43dd-b637-d095c39510a9,co_type_name=FD82405f12790f001056ee5be81b83d0bb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7984,14 +7981,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:17:59</sys_created_on>
         <sys_id>e5ba6013db7200103dbef35eae961946</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:15:19</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8008,7 +8005,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD477942462b0f0010cd7b3c05f531d69a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=f70acaf0-f504-4f23-aad8-0fae4e3e48e5,sourceType=step,sourceUiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46,uiType=object,uiTypeLabel=Object,uiUniqueId=ab481ce2-4a27-4a6b-a982-56a5ffe65f26</attributes>
+        <attributes>co_type_name=FD26409f12d90f0010f97332d12eb89f10,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=f70acaf0-f504-4f23-aad8-0fae4e3e48e5,sourceType=step,sourceUiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46,uiType=object,uiTypeLabel=Object,uiUniqueId=ab481ce2-4a27-4a6b-a982-56a5ffe65f26</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -8068,14 +8065,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:01</sys_created_on>
         <sys_id>42ba6013db7200103dbef35eae9619c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:15:21</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8992,10 +8989,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:01</sys_created_on>
         <sys_id>b5ba6013db7200103dbef35eae96199a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:18:01</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b5ba6013db7200103dbef35eae96199a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9020,9 +9017,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:01</sys_created_on>
         <sys_id>caba6013db7200103dbef35eae9619be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 09:18:01</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:10</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -9033,8 +9030,7 @@
     outputs.status = 'Success';
     outputs.image = responseBody;
 
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b5ba6013db7200103dbef35eae96199a"/>
@@ -9416,7 +9412,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDc3794246c20f00101f79e5c72518417e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
+        <attributes>co_type_name=FD96409f12240f0010667610fb39b80200,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9474,14 +9470,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 09:18:01</sys_created_on>
         <sys_id>caba6013db7200103dbef35eae9619a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 05:15:20</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:03:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
