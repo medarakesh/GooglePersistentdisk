@@ -41,7 +41,7 @@
         <ih_action>true</ih_action>
         <internal_name>get_disk_type_by_zone</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.disk_type}}","label":"action➛Disk Type","type":"action","ref":""},{"name":"{{step[b63edf96-3c68-4e2f-b6a8-35637b5d40f1].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[b63edf96-3c68-4e2f-b6a8-35637b5d40f1].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[b63edf96-3c68-4e2f-b6a8-35637b5d40f1].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[b63edf96-3c68-4e2f-b6a8-35637b5d40f1].disktype}}","label":"step➛Pre Processing➛Disktype","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type}}","label":"step➛Post Processing➛Disk Type","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.name}}","label":"step➛Post Processing➛Disk Type➛Name","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.ID}}","label":"step➛Post Processing➛Disk Type➛ID","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.id}}","label":"step➛Post Processing➛Disk Type➛ID","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.disk_type_child2}}","label":"step➛Post Processing➛Disk Type➛Disk Type_child2","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.Creation_Time_Stmp}}","label":"step➛Post Processing➛Disk Type➛Creation Time Stmp","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.creationTimestamp}}","label":"step➛Post Processing➛disk_type➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.description}}","label":"step➛Post Processing➛Disk Type➛Description","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.validDiskSize}}","label":"step➛Post Processing➛Disk Type➛Valid Disk Size","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.disk_type_child5}}","label":"step➛Post Processing➛Disk Type➛Disk Type_child5","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.zone}}","label":"step➛Post Processing➛disk_type➛Zone","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.selfLink}}","label":"step➛Post Processing➛Disk Type➛Self Link","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.disk_type_child7}}","label":"step➛Post Processing➛Disk Type➛Disk Type_child7","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.defaultDiskSizeGb}}","label":"step➛Post Processing➛disk_type➛Default Disk Size GB","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.kind}}","label":"step➛Post Processing➛Disk Type➛Kind","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.Region}}","label":"step➛Post Processing➛Disk Type➛Region","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.region}}","label":"step➛Post Processing➛Disk Type➛Region","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.disk_type_child9}}","label":"step➛Post Processing➛Disk Type➛Disk Type_child9","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.disk_type_child10}}","label":"step➛Post Processing➛Disk Type➛Disk Type_child10","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.us_east1_b}}","label":"step➛Post Processing➛Disk Type➛us-east1-b","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.Deprecated}}","label":"step➛Post Processing➛Disk Type➛Deprecated","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated}}","label":"step➛Post Processing➛Disk Type➛Deprecated","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.deprecated_child1}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.State}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.state}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.deprecated_child2}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.deprecated_child3}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deprecated_child3","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.Replacement}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.replacement}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.Deprecated}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.deprecated}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.deprecated_child4}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deprecated_child4","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.deprecated_child5}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deprecated_child5","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.Obsolete}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.obsolete}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.Deleted}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].disk_type.deprecated.deleted}}","label":"step➛Post Processing➛Disk Type➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[53cfe232-0b03-4d28-b29e-cca6221d2ef0].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[b045b3d7-5e3d-4546-8ce4-829cb5a63ef8].status_code}}","label":"step➛Get Disk Type➛Status Code","type":"step","ref":""},{"name":"{{step[b045b3d7-5e3d-4546-8ce4-829cb5a63ef8].response_body}}","label":"step➛Get Disk Type➛Response Body","type":"step","ref":""},{"name":"{{step[b045b3d7-5e3d-4546-8ce4-829cb5a63ef8].api_version}}","label":"step➛Get Disk Type➛API version","type":"step","ref":""},{"name":"{{step[b045b3d7-5e3d-4546-8ce4-829cb5a63ef8].u_api_version}}","label":"step➛Get Disk Type➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>dd9f7ffddb9344901c7b50d3e29619b8</latest_snapshot>
+        <latest_snapshot>303345c2db9744901c7b50d3e2961987</latest_snapshot>
         <master_snapshot>b98ec8a60b070010b0ec2eec83673a95</master_snapshot>
         <name>Get Disk Type By Zone</name>
         <natlang/>
@@ -54,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f7e08a60b070010b0ec2eec83673a53</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name>Get Disk Type By Zone</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9f7e08a60b070010b0ec2eec83673a53</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:28:37</sys_updated_on>
+        <sys_updated_on>2020-03-03 10:24:04</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1703,7 +1703,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=1eb9168d-dd17-4120-a667-c83ae6c044cc</attributes>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=1eb9168d-dd17-4120-a667-c83ae6c044cc</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1713,7 +1713,7 @@
 })(current);]]></calculation>
         <choice>1</choice>
         <choice_field/>
-        <choice_table/>
+        <choice_table>us-east1-b</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -1761,14 +1761,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:34:56</sys_created_on>
         <sys_id>1f7e08a60b070010b0ec2eec83673a68</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:34:56</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:23:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1780,6 +1780,47 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1f7e08a60b070010b0ec2eec83673a68^sys_idNOT IN1d0301c2db9744901c7b50d3e2961999"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">1f7e08a60b070010b0ec2eec83673a68</action_input>
+        <action_inputs/>
+        <action_type display_value="Fetch Disk Types By Zone">b9320582db9744901c7b50d3e2961966</action_type>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 10:23:11</sys_created_on>
+        <sys_id>1d0301c2db9744901c7b50d3e2961999</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:23:53</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1d0301c2db9744901c7b50d3e2961999"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>1d0301c2db9744901c7b50d3e2961999</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 10:23:11</sys_created_on>
+        <sys_id>150301c2db9744901c7b50d3e296199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:23:11</sys_updated_on>
+        <value>{{action.project_id}}</value>
+        <variable display_value="">b5320582db9744901c7b50d3e296196b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>1d0301c2db9744901c7b50d3e2961999</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 10:23:11</sys_created_on>
+        <sys_id>d50301c2db9744901c7b50d3e296199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:23:11</sys_updated_on>
+        <value>{{action.zone}}</value>
+        <variable display_value="">75320582db9744901c7b50d3e296197e</variable>
+    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1869,9 +1910,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:34:56</sys_created_on>
         <sys_id>1f7e08a60b070010b0ec2eec83673a67</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:28:29</sys_updated_on>
+        <sys_updated_on>2020-03-03 10:23:53</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1f7e08a60b070010b0ec2eec83673a67"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3722,28 +3763,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9f7e08a60b070010b0ec2eec83673a53^sys_idNOT IN3a8fbbfddb9344901c7b50d3e296193d,f28fbbfddb9344901c7b50d3e296193a"/>
-    <sys_choice field="disk_type" table="var__m_sys_hub_action_input_9f7e08a60b070010b0ec2eec83673a53">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>disk_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- None --</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_9f7e08a60b070010b0ec2eec83673a53</name>
-            <sequence>0</sequence>
-            <sys_created_by>praveen</sys_created_by>
-            <sys_created_on>2020-03-03 05:28:22</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3a8fbbfddb9344901c7b50d3e296193d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>praveen</sys_updated_by>
-            <sys_updated_on>2020-03-03 05:28:22</sys_updated_on>
-            <value/>
-        </sys_choice>
-    </sys_choice>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9f7e08a60b070010b0ec2eec83673a53^sys_idNOT INf28fbbfddb9344901c7b50d3e296193a"/>
     <sys_choice field="zone" table="var__m_sys_hub_action_input_9f7e08a60b070010b0ec2eec83673a53">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -3753,15 +3773,15 @@
             <label>-- None --</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_9f7e08a60b070010b0ec2eec83673a53</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
             <sys_created_by>praveen</sys_created_by>
             <sys_created_on>2020-03-03 05:28:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f28fbbfddb9344901c7b50d3e296193a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>praveen</sys_updated_by>
-            <sys_updated_on>2020-03-03 05:28:22</sys_updated_on>
+            <sys_updated_on>2020-03-03 10:23:53</sys_updated_on>
             <value/>
         </sys_choice>
     </sys_choice>
@@ -3899,17 +3919,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Disk Type By Zone">9f7e08a60b070010b0ec2eec83673a53</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"728e0ca60b070010b0ec2eec83673ae1","name":"plan"}}</plan>
-        <snapshot>dd9f7ffddb9344901c7b50d3e29619b8</snapshot>
+        <snapshot>303345c2db9744901c7b50d3e2961987</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:35:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>728e0ca60b070010b0ec2eec83673ae1</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:28:40</sys_updated_on>
+        <sys_updated_on>2020-03-03 10:24:08</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -4465,7 +4485,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD8e9fbffde593449072e9d70e23bc45b8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=42da7ec9-8533-476a-8996-3deeed98df05</attributes>
+        <attributes>co_type_name=FD423385c289974490e6bba173a7ac54e0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=42da7ec9-8533-476a-8996-3deeed98df05</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4523,14 +4543,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:35:08</sys_created_on>
         <sys_id>c68e0ca60b070010b0ec2eec83673a16</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:28:36</sys_updated_on>
+        <sys_updated_on>2020-03-03 10:24:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5616,9 +5636,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:35:06</sys_created_on>
         <sys_id>f18ec8a60b070010b0ec2eec83673aa6</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:28:36</sys_updated_on>
+        <sys_updated_on>2020-03-03 10:24:02</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f18ec8a60b070010b0ec2eec83673aa6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5653,7 +5673,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=1eb9168d-dd17-4120-a667-c83ae6c044cc</attributes>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=1eb9168d-dd17-4120-a667-c83ae6c044cc</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5663,7 +5683,7 @@
 })(current);]]></calculation>
         <choice>1</choice>
         <choice_field/>
-        <choice_table/>
+        <choice_table>us-east1-b</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -5711,14 +5731,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:35:06</sys_created_on>
         <sys_id>f18ec8a60b070010b0ec2eec83673aa7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:35:06</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:24:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5730,6 +5750,47 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f18ec8a60b070010b0ec2eec83673aa7^sys_idNOT INb93385c2db9744901c7b50d3e29619ab"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">f18ec8a60b070010b0ec2eec83673aa7</action_input>
+        <action_inputs/>
+        <action_type display_value="Fetch Disk Types By Zone">b9320582db9744901c7b50d3e2961966</action_type>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 10:24:02</sys_created_on>
+        <sys_id>b93385c2db9744901c7b50d3e29619ab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:24:02</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b93385c2db9744901c7b50d3e29619ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>b93385c2db9744901c7b50d3e29619ab</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 10:24:02</sys_created_on>
+        <sys_id>b93385c2db9744901c7b50d3e29619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:24:02</sys_updated_on>
+        <value>{{action.zone}}</value>
+        <variable display_value="">75320582db9744901c7b50d3e296197e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>b93385c2db9744901c7b50d3e29619ab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 10:24:02</sys_created_on>
+        <sys_id>f53385c2db9744901c7b50d3e29619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:24:02</sys_updated_on>
+        <value>{{action.project_id}}</value>
+        <variable display_value="">b5320582db9744901c7b50d3e296196b</variable>
+    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -5816,7 +5877,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDda9fbffd93934490737b404fecd693c9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cc0b826e-e1e9-4ebf-9de1-0232edf9d8c9</attributes>
+        <attributes>co_type_name=FD4e3385c2459744901108adec18e696f0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cc0b826e-e1e9-4ebf-9de1-0232edf9d8c9</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5876,14 +5937,14 @@
         <sys_created_by>praveen</sys_created_by>
         <sys_created_on>2020-02-26 05:35:36</sys_created_on>
         <sys_id>0ea74980db1300901c7b50d3e296194e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:28:37</sys_updated_on>
+        <sys_updated_on>2020-03-03 10:24:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6500,7 +6561,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD8e9fbffde593449072e9d70e23bc45b8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=42da7ec9-8533-476a-8996-3deeed98df05</attributes>
+        <attributes>co_type_name=FD423385c289974490e6bba173a7ac54e0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=42da7ec9-8533-476a-8996-3deeed98df05</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6558,14 +6619,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:35:08</sys_created_on>
         <sys_id>c68e0ca60b070010b0ec2eec83673a16</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:28:36</sys_updated_on>
+        <sys_updated_on>2020-03-03 10:24:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

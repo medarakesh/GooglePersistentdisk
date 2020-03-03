@@ -46,8 +46,8 @@
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>create_disk</internal_name>
-        <label_cache>[{"name":"{{action.project}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.size_gb}}","label":"action➛size GB","type":"action","ref":""},{"name":"{{action.sizegb}}","label":"action➛Size GB","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{action.licenses}}","label":"action➛Licenses","type":"action","ref":""},{"name":"{{action.licenses.License}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.licenses.license}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.physical_blocksize_bytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.physicalblocksizebytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.license_codes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes.License_Code}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.licensecodes.licenseCode}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.disk_encryption_key}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Raw_Key}}","label":"action➛Disk Encryption Key➛Raw Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.rawKey}}","label":"action➛Disk Encryption Key➛RAW Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kms_Key_Name}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kmsKeyName}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.sha256}}","label":"action➛Disk Encryption Key➛SHA256","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Kms_Key_Name}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.KmsKeyName}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].project}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].zone}}","label":"step➛Pre Processing➛zone","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].name}}","label":"step➛Pre Processing➛name","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].projectid}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].requestbody}}","label":"step➛Pre Processing➛RequestBody","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].response_body}}","label":"step➛Create Disk➛Response Body","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].status_code}}","label":"step➛Create Disk➛Status Code","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].u_api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk}}","label":"step➛Post Processing➛Disk","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child1}}","label":"step➛Post Processing➛Disk➛Disk_child1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child2}}","label":"step➛Post Processing➛Disk➛Disk_child2","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child3}}","label":"step➛Post Processing➛Disk➛Disk_child3","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Target_Link}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.targetLink}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child4}}","label":"step➛Post Processing➛Disk➛Disk_child4","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.User}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.user}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child5}}","label":"step➛Post Processing➛Disk➛Disk_child5","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Insert_Time}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.insertTime}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child6}}","label":"step➛Post Processing➛Disk➛Disk_child6","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Start_Time}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.startTime}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child7}}","label":"step➛Post Processing➛Disk➛Disk_child7","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Self_Link}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.selfLink}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child8}}","label":"step➛Post Processing➛Disk➛Disk_child8","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.ID}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.id}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child9}}","label":"step➛Post Processing➛Disk➛Disk_child9","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>9e5df77ddb9344901c7b50d3e29619f9</latest_snapshot>
+        <label_cache>[{"name":"{{action.project}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.size_gb}}","label":"action➛size GB","type":"action","ref":""},{"name":"{{action.sizegb}}","label":"action➛Size GB","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{action.licenses}}","label":"action➛Licenses","type":"action","ref":""},{"name":"{{action.licenses.License}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.licenses.license}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.physical_blocksize_bytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.physicalblocksizebytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.license_codes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes.License_Code}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.licensecodes.licenseCode}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.disk_encryption_key}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Raw_Key}}","label":"action➛Disk Encryption Key➛Raw Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.rawKey}}","label":"action➛Disk Encryption Key➛RAW Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kms_Key_Name}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kmsKeyName}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.sha256}}","label":"action➛Disk Encryption Key➛SHA256","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Kms_Key_Name}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.KmsKeyName}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{action.labels}}","label":"action➛Labels","type":"action","ref":""},{"name":"{{action.labels.Label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label.Key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.Value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.labels.label.value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].project}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].zone}}","label":"step➛Pre Processing➛zone","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].name}}","label":"step➛Pre Processing➛name","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].projectid}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].requestbody}}","label":"step➛Pre Processing➛RequestBody","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].response_body}}","label":"step➛Create Disk➛Response Body","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].status_code}}","label":"step➛Create Disk➛Status Code","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].u_api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk}}","label":"step➛Post Processing➛Disk","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child1}}","label":"step➛Post Processing➛Disk➛Disk_child1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child2}}","label":"step➛Post Processing➛Disk➛Disk_child2","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child3}}","label":"step➛Post Processing➛Disk➛Disk_child3","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Target_Link}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.targetLink}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child4}}","label":"step➛Post Processing➛Disk➛Disk_child4","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.User}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.user}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child5}}","label":"step➛Post Processing➛Disk➛Disk_child5","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Insert_Time}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.insertTime}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child6}}","label":"step➛Post Processing➛Disk➛Disk_child6","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Start_Time}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.startTime}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child7}}","label":"step➛Post Processing➛Disk➛Disk_child7","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Self_Link}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.selfLink}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child8}}","label":"step➛Post Processing➛Disk➛Disk_child8","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.ID}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.id}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child9}}","label":"step➛Post Processing➛Disk➛Disk_child9","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>5eb0a4cadb1744901c7b50d3e2961905</latest_snapshot>
         <master_snapshot>f2b3006e0bc30010b0ec2eec83673aed</master_snapshot>
         <name>Create Disk</name>
         <natlang/>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb93c82e0bc30010b0ec2eec83673aaa</sys_id>
-        <sys_mod_count>96</sys_mod_count>
+        <sys_mod_count>103</sys_mod_count>
         <sys_name>Create Disk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_eb93c82e0bc30010b0ec2eec83673aaa</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:55</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1061,10 +1061,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:27</sys_created_on>
         <sys_id>fb93c82e0bc30010b0ec2eec83673afd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:32</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fb93c82e0bc30010b0ec2eec83673afd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1089,9 +1089,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:28</sys_created_on>
         <sys_id>c4a30c2e0bc30010b0ec2eec83673a61</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:33</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
@@ -1113,6 +1113,14 @@
         requestBody.diskEncryptionKey = inputs.diskEncryptionKey;
     if (inputs.type)
         requestBody.type = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/diskTypes/" + inputs.type;
+    if (inputs.labels.length &gt; 0) {
+        var labels = {};
+        inputs.labels.forEach(function(label) {
+            if (label['key'].trim() &amp;&amp; label['value'].trim())
+                labels[label['key']] = label['value'];
+        });
+        requestBody.labels = labels;
+    }
     outputs.requestbody = JSON.stringify(requestBody);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1153,6 +1161,18 @@
         <sys_updated_on>2020-02-21 08:47:28</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</table>
         <value>{{action.diskencryptionkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>labels</field>
+        <id>fb93c82e0bc30010b0ec2eec83673afd</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:06</sys_created_on>
+        <sys_id>72a0e0cadb1744901c7b50d3e2961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</table>
+        <value>{{action.labels}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>licenseCodes</field>
@@ -1262,7 +1282,88 @@
         <table>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</table>
         <value>{{action.zone}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=fb93c82e0bc30010b0ec2eec83673afd^sys_idNOT IN33930c2e0bc30010b0ec2eec83673a13,37930c2e0bc30010b0ec2eec83673a2b,73930c2e0bc30010b0ec2eec83673a19,77930c2e0bc30010b0ec2eec83673a31,b3930c2e0bc30010b0ec2eec83673a1f,b7930c2e0bc30010b0ec2eec83673a37,bf930c2e0bc30010b0ec2eec83673a06,f3930c2e0bc30010b0ec2eec83673a25,f7930c2e0bc30010b0ec2eec83673a00,ff930c2e0bc30010b0ec2eec83673a0c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=fb93c82e0bc30010b0ec2eec83673afd^sys_idNOT IN32a0e0cadb1744901c7b50d3e2961932,33930c2e0bc30010b0ec2eec83673a13,37930c2e0bc30010b0ec2eec83673a2b,73930c2e0bc30010b0ec2eec83673a19,77930c2e0bc30010b0ec2eec83673a31,b3930c2e0bc30010b0ec2eec83673a1f,b7930c2e0bc30010b0ec2eec83673a37,bf930c2e0bc30010b0ec2eec83673a06,f3930c2e0bc30010b0ec2eec83673a25,f7930c2e0bc30010b0ec2eec83673a00,ff930c2e0bc30010b0ec2eec83673a0c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>labels</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">fb93c82e0bc30010b0ec2eec83673afd</model>
+        <model_id>fb93c82e0bc30010b0ec2eec83673afd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</name>
+        <next_element/>
+        <order>1000</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:06</sys_created_on>
+        <sys_id>32a0e0cadb1744901c7b50d3e2961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2317,7 +2418,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=eb93c82e0bc30010b0ec2eec83673aaa^sys_idNOT IN2b93c82e0bc30010b0ec2eec83673abb,3f93c82e0bc30010b0ec2eec83673ad9,6b93c82e0bc30010b0ec2eec83673acc,6b93c82e0bc30010b0ec2eec83673ad3,a793c82e0bc30010b0ec2eec83673ac6,af93c82e0bc30010b0ec2eec83673ab4,b393c82e0bc30010b0ec2eec83673ae6,b793c82e0bc30010b0ec2eec83673aec,ff93c82e0bc30010b0ec2eec83673adf,ff93c82e0bc30010b0ec2eec83673af2"/>
+    <sys_hub_action_input action="delete_multiple" query="model=eb93c82e0bc30010b0ec2eec83673aaa^sys_idNOT IN2b93c82e0bc30010b0ec2eec83673abb,3f93c82e0bc30010b0ec2eec83673ad9,6b93c82e0bc30010b0ec2eec83673acc,6b93c82e0bc30010b0ec2eec83673ad3,9b8f908adb1744901c7b50d3e29619d6,a793c82e0bc30010b0ec2eec83673ac6,af93c82e0bc30010b0ec2eec83673ab4,b393c82e0bc30010b0ec2eec83673ae6,b793c82e0bc30010b0ec2eec83673aec,ff93c82e0bc30010b0ec2eec83673adf,ff93c82e0bc30010b0ec2eec83673af2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2407,9 +2508,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:27</sys_created_on>
         <sys_id>a793c82e0bc30010b0ec2eec83673ac5</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:39</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:15</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a793c82e0bc30010b0ec2eec83673ac5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2687,6 +2788,87 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=0bf661f2-3c84-44b7-9ef6-c8b54f3a1330,co_type_name=FDcf8f908aac174490def3c4cddbf33da8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=9e2f2109-db90-4424-a305-c5532fef5f50</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>labels</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Labels</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Disk">eb93c82e0bc30010b0ec2eec83673aaa</model>
+        <model_id>eb93c82e0bc30010b0ec2eec83673aaa</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_eb93c82e0bc30010b0ec2eec83673aaa</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:48:13</sys_created_on>
+        <sys_id>9b8f908adb1744901c7b50d3e29619d6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a8bc8671-9f4e-4a5d-8739-69060be4a952</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -2889,7 +3071,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_eb93c82e0bc30010b0ec2eec83673aaa</name>
         <next_element/>
-        <order>8</order>
+        <order>9</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2907,14 +3089,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:27</sys_created_on>
         <sys_id>b393c82e0bc30010b0ec2eec83673ae6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-25 06:47:04</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:48:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2930,7 +3112,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=License,child_name=license,child_type=string,child_type_label=String,child_uiUniqueId=2a04e1ec-5e6f-4c59-b07c-baa24d2b0260,co_type_name=FD8d2976a17db200108f459e6f54deaca1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=1097b6bb-874e-432e-9883-f990a5a4260d</attributes>
+        <attributes>child_label=License,child_name=license,child_type=string,child_type_label=String,child_uiUniqueId=05e415ae-911a-4192-8ce0-b8dd32ec5970,co_type_name=FD8d2976a17db200108f459e6f54deaca1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=1097b6bb-874e-432e-9883-f990a5a4260d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2970,7 +3152,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_eb93c82e0bc30010b0ec2eec83673aaa</name>
         <next_element/>
-        <order>9</order>
+        <order>10</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2988,14 +3170,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:27</sys_created_on>
         <sys_id>b793c82e0bc30010b0ec2eec83673aec</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:39</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3092,7 +3274,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=License Code,child_name=licenseCode,child_type=string,child_type_label=String,child_uiUniqueId=f16f716f-24b3-4201-b380-563ea58a3123,co_type_name=FD492976a105b200105ca0efa73ebf39a3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=cb240f74-b3d4-4dcb-a539-301b14a7a0c6</attributes>
+        <attributes>child_label=License Code,child_name=licenseCode,child_type=string,child_type_label=String,child_uiUniqueId=e6205c61-1597-4a10-a344-cbbefe99ed06,co_type_name=FD492976a105b200105ca0efa73ebf39a3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=cb240f74-b3d4-4dcb-a539-301b14a7a0c6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3132,7 +3314,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_eb93c82e0bc30010b0ec2eec83673aaa</name>
         <next_element/>
-        <order>10</order>
+        <order>11</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3150,14 +3332,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:27</sys_created_on>
         <sys_id>ff93c82e0bc30010b0ec2eec83673af2</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:39</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4369,10 +4551,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:27</sys_created_on>
         <sys_id>fb93c82e0bc30010b0ec2eec83673afd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:32</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fb93c82e0bc30010b0ec2eec83673afd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4397,9 +4579,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:28</sys_created_on>
         <sys_id>c4a30c2e0bc30010b0ec2eec83673a61</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:33</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
@@ -4421,6 +4603,14 @@
         requestBody.diskEncryptionKey = inputs.diskEncryptionKey;
     if (inputs.type)
         requestBody.type = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/diskTypes/" + inputs.type;
+    if (inputs.labels.length &gt; 0) {
+        var labels = {};
+        inputs.labels.forEach(function(label) {
+            if (label['key'].trim() &amp;&amp; label['value'].trim())
+                labels[label['key']] = label['value'];
+        });
+        requestBody.labels = labels;
+    }
     outputs.requestbody = JSON.stringify(requestBody);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -4461,6 +4651,18 @@
         <sys_updated_on>2020-02-21 08:47:28</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</table>
         <value>{{action.diskencryptionkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>labels</field>
+        <id>fb93c82e0bc30010b0ec2eec83673afd</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:06</sys_created_on>
+        <sys_id>72a0e0cadb1744901c7b50d3e2961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</table>
+        <value>{{action.labels}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>licenseCodes</field>
@@ -4570,7 +4772,88 @@
         <table>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</table>
         <value>{{action.zone}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=fb93c82e0bc30010b0ec2eec83673afd^sys_idNOT IN33930c2e0bc30010b0ec2eec83673a13,37930c2e0bc30010b0ec2eec83673a2b,73930c2e0bc30010b0ec2eec83673a19,77930c2e0bc30010b0ec2eec83673a31,b3930c2e0bc30010b0ec2eec83673a1f,b7930c2e0bc30010b0ec2eec83673a37,bf930c2e0bc30010b0ec2eec83673a06,f3930c2e0bc30010b0ec2eec83673a25,f7930c2e0bc30010b0ec2eec83673a00,ff930c2e0bc30010b0ec2eec83673a0c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=fb93c82e0bc30010b0ec2eec83673afd^sys_idNOT IN32a0e0cadb1744901c7b50d3e2961932,33930c2e0bc30010b0ec2eec83673a13,37930c2e0bc30010b0ec2eec83673a2b,73930c2e0bc30010b0ec2eec83673a19,77930c2e0bc30010b0ec2eec83673a31,b3930c2e0bc30010b0ec2eec83673a1f,b7930c2e0bc30010b0ec2eec83673a37,bf930c2e0bc30010b0ec2eec83673a06,f3930c2e0bc30010b0ec2eec83673a25,f7930c2e0bc30010b0ec2eec83673a00,ff930c2e0bc30010b0ec2eec83673a0c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>labels</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">fb93c82e0bc30010b0ec2eec83673afd</model>
+        <model_id>fb93c82e0bc30010b0ec2eec83673afd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_fb93c82e0bc30010b0ec2eec83673afd</name>
+        <next_element/>
+        <order>1000</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:06</sys_created_on>
+        <sys_id>32a0e0cadb1744901c7b50d3e2961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -5625,7 +5908,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_eb93c82e0bc30010b0ec2eec83673aaa^sys_idNOT IN2393c82e0bc30010b0ec2eec83673ac4,3b93c82e0bc30010b0ec2eec83673ade,3b93c82e0bc30010b0ec2eec83673af1,6393c82e0bc30010b0ec2eec83673aba,6793c82e0bc30010b0ec2eec83673ad8,7393c82e0bc30010b0ec2eec83673af8,a393c82e0bc30010b0ec2eec83673acb,a393c82e0bc30010b0ec2eec83673ad2,fb93c82e0bc30010b0ec2eec83673ae4,ff93c82e0bc30010b0ec2eec83673aea"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_eb93c82e0bc30010b0ec2eec83673aaa^sys_idNOT IN2393c82e0bc30010b0ec2eec83673ac4,3b93c82e0bc30010b0ec2eec83673ade,3b93c82e0bc30010b0ec2eec83673af1,6393c82e0bc30010b0ec2eec83673aba,6793c82e0bc30010b0ec2eec83673ad8,7393c82e0bc30010b0ec2eec83673af8,9f8f908adb1744901c7b50d3e29619dd,a393c82e0bc30010b0ec2eec83673acb,a393c82e0bc30010b0ec2eec83673ad2,fb93c82e0bc30010b0ec2eec83673ae4,ff93c82e0bc30010b0ec2eec83673aea"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>zone</element>
         <help/>
@@ -5761,6 +6044,29 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 08:47:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>labels</element>
+        <help/>
+        <hint/>
+        <label>Labels</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eb93c82e0bc30010b0ec2eec83673aaa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:48:14</sys_created_on>
+        <sys_id>9f8f908adb1744901c7b50d3e29619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:48:14</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -6964,17 +7270,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Create Disk">eb93c82e0bc30010b0ec2eec83673aaa</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8cc3806e0bc30010b0ec2eec83673ad4","name":"plan"}}</plan>
-        <snapshot>9e5df77ddb9344901c7b50d3e29619f9</snapshot>
+        <snapshot>5eb0a4cadb1744901c7b50d3e2961905</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:48:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8cc3806e0bc30010b0ec2eec83673ad4</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:59</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:33</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -7021,7 +7327,7 @@
 
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>create_disk</internal_name>
-        <label_cache>[{"name":"{{action.project}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.size_gb}}","label":"action➛size GB","type":"action","ref":""},{"name":"{{action.sizegb}}","label":"action➛Size GB","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{action.licenses}}","label":"action➛Licenses","type":"action","ref":""},{"name":"{{action.licenses.License}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.licenses.license}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.physical_blocksize_bytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.physicalblocksizebytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.license_codes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes.License_Code}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.licensecodes.licenseCode}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.disk_encryption_key}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Raw_Key}}","label":"action➛Disk Encryption Key➛Raw Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.rawKey}}","label":"action➛Disk Encryption Key➛RAW Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kms_Key_Name}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kmsKeyName}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.sha256}}","label":"action➛Disk Encryption Key➛SHA256","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Kms_Key_Name}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.KmsKeyName}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].project}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].zone}}","label":"step➛Pre Processing➛zone","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].name}}","label":"step➛Pre Processing➛name","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].projectid}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].requestbody}}","label":"step➛Pre Processing➛RequestBody","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].response_body}}","label":"step➛Create Disk➛Response Body","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].status_code}}","label":"step➛Create Disk➛Status Code","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].u_api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk}}","label":"step➛Post Processing➛Disk","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child1}}","label":"step➛Post Processing➛Disk➛Disk_child1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child2}}","label":"step➛Post Processing➛Disk➛Disk_child2","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child3}}","label":"step➛Post Processing➛Disk➛Disk_child3","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Target_Link}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.targetLink}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child4}}","label":"step➛Post Processing➛Disk➛Disk_child4","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.User}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.user}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child5}}","label":"step➛Post Processing➛Disk➛Disk_child5","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Insert_Time}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.insertTime}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child6}}","label":"step➛Post Processing➛Disk➛Disk_child6","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Start_Time}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.startTime}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child7}}","label":"step➛Post Processing➛Disk➛Disk_child7","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Self_Link}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.selfLink}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child8}}","label":"step➛Post Processing➛Disk➛Disk_child8","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.ID}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.id}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child9}}","label":"step➛Post Processing➛Disk➛Disk_child9","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.project}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.size_gb}}","label":"action➛size GB","type":"action","ref":""},{"name":"{{action.sizegb}}","label":"action➛Size GB","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{action.licenses}}","label":"action➛Licenses","type":"action","ref":""},{"name":"{{action.licenses.License}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.licenses.license}}","label":"action➛Licenses➛License","type":"action","ref":""},{"name":"{{action.physical_blocksize_bytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.physicalblocksizebytes}}","label":"action➛Physical BlockSize Bytes","type":"action","ref":""},{"name":"{{action.license_codes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes}}","label":"action➛License Codes","type":"action","ref":""},{"name":"{{action.licensecodes.License_Code}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.licensecodes.licenseCode}}","label":"action➛License Codes➛License Code","type":"action","ref":""},{"name":"{{action.disk_encryption_key}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey}}","label":"action➛Disk Encryption Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Raw_Key}}","label":"action➛Disk Encryption Key➛Raw Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.rawKey}}","label":"action➛Disk Encryption Key➛RAW Key","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kms_Key_Name}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.kmsKeyName}}","label":"action➛Disk Encryption Key➛kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.sha256}}","label":"action➛Disk Encryption Key➛SHA256","type":"action","ref":""},{"name":"{{action.diskencryptionkey.Kms_Key_Name}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{action.diskencryptionkey.KmsKeyName}}","label":"action➛Disk Encryption Key➛Kms Key Name","type":"action","ref":""},{"name":"{{action.labels}}","label":"action➛Labels","type":"action","ref":""},{"name":"{{action.labels.Label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label.Key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.Value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.labels.label.value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].project}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].zone}}","label":"step➛Pre Processing➛zone","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].name}}","label":"step➛Pre Processing➛name","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].projectid}}","label":"step➛Pre Processing➛projectid","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[817b61ac-c12a-413b-93d6-8967370acc83].requestbody}}","label":"step➛Pre Processing➛RequestBody","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].response_body}}","label":"step➛Create Disk➛Response Body","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].status_code}}","label":"step➛Create Disk➛Status Code","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[5e2068ea-0a56-4221-a7a2-0d4873817388].u_api_version}}","label":"step➛Create Disk➛API Version","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk}}","label":"step➛Post Processing➛Disk","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child1}}","label":"step➛Post Processing➛Disk➛Disk_child1","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.name}}","label":"step➛Post Processing➛Disk➛Name","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child2}}","label":"step➛Post Processing➛Disk➛Disk_child2","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.zone}}","label":"step➛Post Processing➛Disk➛Zone","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child3}}","label":"step➛Post Processing➛Disk➛Disk_child3","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Target_Link}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.targetLink}}","label":"step➛Post Processing➛Disk➛Target Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child4}}","label":"step➛Post Processing➛Disk➛Disk_child4","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.User}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.user}}","label":"step➛Post Processing➛Disk➛User","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child5}}","label":"step➛Post Processing➛Disk➛Disk_child5","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Insert_Time}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.insertTime}}","label":"step➛Post Processing➛Disk➛Insert Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child6}}","label":"step➛Post Processing➛Disk➛Disk_child6","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Start_Time}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.startTime}}","label":"step➛Post Processing➛Disk➛Start Time","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child7}}","label":"step➛Post Processing➛Disk➛Disk_child7","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Self_Link}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.selfLink}}","label":"step➛Post Processing➛Disk➛Self Link","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child8}}","label":"step➛Post Processing➛Disk➛Disk_child8","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.ID}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.id}}","label":"step➛Post Processing➛Disk➛ID","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.disk_child9}}","label":"step➛Post Processing➛Disk➛Disk_child9","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.Status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""},{"name":"{{step[f50ba34e-f362-4131-8613-1e54b0322540].disk.status}}","label":"step➛Post Processing➛Disk➛Status","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Create Disk</name>
         <natlang/>
@@ -7034,7 +7340,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f2b3006e0bc30010b0ec2eec83673aed</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -7042,7 +7348,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-02 06:38:51</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:26</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -7520,10 +7826,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:57</sys_created_on>
         <sys_id>83b3406e0bc30010b0ec2eec83673a49</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:55</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=83b3406e0bc30010b0ec2eec83673a49"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7534,9 +7840,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:58</sys_created_on>
         <sys_id>8fb3406e0bc30010b0ec2eec83673aac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:55</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
@@ -7558,6 +7864,14 @@
         requestBody.diskEncryptionKey = inputs.diskEncryptionKey;
     if (inputs.type)
         requestBody.type = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/diskTypes/" + inputs.type;
+    if (inputs.labels.length &gt; 0) {
+        var labels = {};
+        inputs.labels.forEach(function(label) {
+            if (label['key'].trim() &amp;&amp; label['value'].trim())
+                labels[label['key']] = label['value'];
+        });
+        requestBody.labels = labels;
+    }
     outputs.requestbody = JSON.stringify(requestBody);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -7612,6 +7926,18 @@
         <sys_updated_on>2020-02-21 08:47:58</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</table>
         <value>{{action.diskencryptionkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>labels</field>
+        <id>83b3406e0bc30010b0ec2eec83673a49</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:28</sys_created_on>
+        <sys_id>88c028cadb1744901c7b50d3e296190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</table>
+        <value>{{action.labels}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>licenseCodes</field>
@@ -7721,7 +8047,7 @@
         <table>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</table>
         <value>{{action.zone}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=83b3406e0bc30010b0ec2eec83673a49^sys_idNOT IN0bb3406e0bc30010b0ec2eec83673a64,0fb3406e0bc30010b0ec2eec83673a7c,47b3406e0bc30010b0ec2eec83673a52,4bb3406e0bc30010b0ec2eec83673a6a,4fb3406e0bc30010b0ec2eec83673a82,87b3406e0bc30010b0ec2eec83673a58,8bb3406e0bc30010b0ec2eec83673a70,8fb3406e0bc30010b0ec2eec83673a4b,c7b3406e0bc30010b0ec2eec83673a5e,cbb3406e0bc30010b0ec2eec83673a76"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=83b3406e0bc30010b0ec2eec83673a49^sys_idNOT IN0bb3406e0bc30010b0ec2eec83673a64,0fb3406e0bc30010b0ec2eec83673a7c,47b3406e0bc30010b0ec2eec83673a52,4bb3406e0bc30010b0ec2eec83673a6a,4fb3406e0bc30010b0ec2eec83673a82,87b3406e0bc30010b0ec2eec83673a58,8bb3406e0bc30010b0ec2eec83673a70,8fb3406e0bc30010b0ec2eec83673a4b,c7b3406e0bc30010b0ec2eec83673a5e,c8c0e4cadb1744901c7b50d3e29619fc,cbb3406e0bc30010b0ec2eec83673a76"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -8440,6 +8766,87 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 08:47:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>labels</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>labels</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">83b3406e0bc30010b0ec2eec83673a49</model>
+        <model_id>83b3406e0bc30010b0ec2eec83673a49</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</name>
+        <next_element/>
+        <order>1000</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:27</sys_created_on>
+        <sys_id>c8c0e4cadb1744901c7b50d3e29619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9214,7 +9621,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD886dbb7d29934490e2e545755d22d0b0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=beca3e7c-e701-404e-9959-ebf09778b09b</attributes>
+        <attributes>co_type_name=FD14c028ca5c174490c87ede7a83b56c2b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=beca3e7c-e701-404e-9959-ebf09778b09b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9272,14 +9679,14 @@
         <sys_created_by>praveen</sys_created_by>
         <sys_created_on>2020-03-02 06:38:53</sys_created_on>
         <sys_id>bd168ba9db5704901c7b50d3e296197d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:54</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9291,7 +9698,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=f2b3006e0bc30010b0ec2eec83673aed^sys_idNOT IN32b3406e0bc30010b0ec2eec83673a1f,7ab3006e0bc30010b0ec2eec83673afa,7eb3406e0bc30010b0ec2eec83673a18,bab3406e0bc30010b0ec2eec83673a0b,bab3406e0bc30010b0ec2eec83673a12,beb3406e0bc30010b0ec2eec83673a37,f2b3406e0bc30010b0ec2eec83673a25,f6b3406e0bc30010b0ec2eec83673a05,f6b3406e0bc30010b0ec2eec83673a3e,feb3006e0bc30010b0ec2eec83673af3"/>
+    <sys_hub_action_input action="delete_multiple" query="model=f2b3006e0bc30010b0ec2eec83673aed^sys_idNOT IN32b3406e0bc30010b0ec2eec83673a1f,73b0e4cadb1744901c7b50d3e29619cc,7ab3006e0bc30010b0ec2eec83673afa,7eb3406e0bc30010b0ec2eec83673a18,bab3406e0bc30010b0ec2eec83673a0b,bab3406e0bc30010b0ec2eec83673a12,beb3406e0bc30010b0ec2eec83673a37,f2b3406e0bc30010b0ec2eec83673a25,f6b3406e0bc30010b0ec2eec83673a05,f6b3406e0bc30010b0ec2eec83673a3e,feb3006e0bc30010b0ec2eec83673af3"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -9362,6 +9769,87 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 08:47:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=0bf661f2-3c84-44b7-9ef6-c8b54f3a1330,co_type_name=FD63b0e4cafc17449003678104fd369aa8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=9e2f2109-db90-4424-a305-c5532fef5f50</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>labels</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Labels</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Disk">f2b3006e0bc30010b0ec2eec83673aed</model>
+        <model_id>f2b3006e0bc30010b0ec2eec83673aed</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f2b3006e0bc30010b0ec2eec83673aed</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:27</sys_created_on>
+        <sys_id>73b0e4cadb1744901c7b50d3e29619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9462,9 +9950,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:56</sys_created_on>
         <sys_id>f6b3406e0bc30010b0ec2eec83673a04</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:53</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:26</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f6b3406e0bc30010b0ec2eec83673a04"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9742,7 +10230,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=License,child_name=license,child_type=string,child_type_label=String,child_uiUniqueId=2a04e1ec-5e6f-4c59-b07c-baa24d2b0260,co_type_name=FD6b5dbb7d569344901edc200f82c1c601,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=1097b6bb-874e-432e-9883-f990a5a4260d</attributes>
+        <attributes>child_label=License,child_name=license,child_type=string,child_type_label=String,child_uiUniqueId=05e415ae-911a-4192-8ce0-b8dd32ec5970,co_type_name=FDe3b0e4caad1744906ce07d954b9c99ab,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=1097b6bb-874e-432e-9883-f990a5a4260d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9782,7 +10270,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_f2b3006e0bc30010b0ec2eec83673aed</name>
         <next_element/>
-        <order>9</order>
+        <order>10</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -9800,14 +10288,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:56</sys_created_on>
         <sys_id>beb3406e0bc30010b0ec2eec83673a37</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:53</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9823,7 +10311,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD6f5d7b7d18934490dc79d2981f441eff,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e760f539-e6b7-4e01-ba73-c54f5876c99d</attributes>
+        <attributes>co_type_name=FDabb0e4ca3b1744902644d65df20401a9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e760f539-e6b7-4e01-ba73-c54f5876c99d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9863,7 +10351,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_f2b3006e0bc30010b0ec2eec83673aed</name>
         <next_element/>
-        <order>8</order>
+        <order>9</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -9881,14 +10369,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:56</sys_created_on>
         <sys_id>f2b3406e0bc30010b0ec2eec83673a25</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:53</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9985,7 +10473,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=License Code,child_name=licenseCode,child_type=string,child_type_label=String,child_uiUniqueId=f16f716f-24b3-4201-b380-563ea58a3123,co_type_name=FD675dbb7da593449055876516fd370d03,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=cb240f74-b3d4-4dcb-a539-301b14a7a0c6</attributes>
+        <attributes>child_label=License Code,child_name=licenseCode,child_type=string,child_type_label=String,child_uiUniqueId=e6205c61-1597-4a10-a344-cbbefe99ed06,co_type_name=FD2fb0e4ca5817449062817cb0c23816ac,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=cb240f74-b3d4-4dcb-a539-301b14a7a0c6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -10025,7 +10513,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_f2b3006e0bc30010b0ec2eec83673aed</name>
         <next_element/>
-        <order>10</order>
+        <order>11</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -10043,14 +10531,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:56</sys_created_on>
         <sys_id>f6b3406e0bc30010b0ec2eec83673a3e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:53</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -10148,7 +10636,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDcc6dbb7dd693449044ad5d815826bcc1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=f50ba34e-f362-4131-8613-1e54b0322540,sourceType=step,sourceUiUniqueId=beca3e7c-e701-404e-9959-ebf09778b09b,uiType=object,uiTypeLabel=Object,uiUniqueId=b4854349-21c1-496e-abb1-83e296d7bc4b</attributes>
+        <attributes>co_type_name=FD14c028ca48174490f38db397d762263c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=f50ba34e-f362-4131-8613-1e54b0322540,sourceType=step,sourceUiUniqueId=beca3e7c-e701-404e-9959-ebf09778b09b,uiType=object,uiTypeLabel=Object,uiUniqueId=b4854349-21c1-496e-abb1-83e296d7bc4b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -10208,14 +10696,14 @@
         <sys_created_by>praveen</sys_created_by>
         <sys_created_on>2020-03-02 06:38:53</sys_created_on>
         <sys_id>3d168ba9db5704901c7b50d3e296198f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:54</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -10828,10 +11316,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:57</sys_created_on>
         <sys_id>83b3406e0bc30010b0ec2eec83673a49</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:55</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=83b3406e0bc30010b0ec2eec83673a49"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -10842,9 +11330,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 08:47:58</sys_created_on>
         <sys_id>8fb3406e0bc30010b0ec2eec83673aac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-02-27 09:16:55</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
@@ -10866,6 +11354,14 @@
         requestBody.diskEncryptionKey = inputs.diskEncryptionKey;
     if (inputs.type)
         requestBody.type = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/diskTypes/" + inputs.type;
+    if (inputs.labels.length &gt; 0) {
+        var labels = {};
+        inputs.labels.forEach(function(label) {
+            if (label['key'].trim() &amp;&amp; label['value'].trim())
+                labels[label['key']] = label['value'];
+        });
+        requestBody.labels = labels;
+    }
     outputs.requestbody = JSON.stringify(requestBody);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -10920,6 +11416,18 @@
         <sys_updated_on>2020-02-21 08:47:58</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</table>
         <value>{{action.diskencryptionkey}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>labels</field>
+        <id>83b3406e0bc30010b0ec2eec83673a49</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:28</sys_created_on>
+        <sys_id>88c028cadb1744901c7b50d3e296190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</table>
+        <value>{{action.labels}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>licenseCodes</field>
@@ -11029,7 +11537,7 @@
         <table>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</table>
         <value>{{action.zone}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=83b3406e0bc30010b0ec2eec83673a49^sys_idNOT IN0bb3406e0bc30010b0ec2eec83673a64,0fb3406e0bc30010b0ec2eec83673a7c,47b3406e0bc30010b0ec2eec83673a52,4bb3406e0bc30010b0ec2eec83673a6a,4fb3406e0bc30010b0ec2eec83673a82,87b3406e0bc30010b0ec2eec83673a58,8bb3406e0bc30010b0ec2eec83673a70,8fb3406e0bc30010b0ec2eec83673a4b,c7b3406e0bc30010b0ec2eec83673a5e,cbb3406e0bc30010b0ec2eec83673a76"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=83b3406e0bc30010b0ec2eec83673a49^sys_idNOT IN0bb3406e0bc30010b0ec2eec83673a64,0fb3406e0bc30010b0ec2eec83673a7c,47b3406e0bc30010b0ec2eec83673a52,4bb3406e0bc30010b0ec2eec83673a6a,4fb3406e0bc30010b0ec2eec83673a82,87b3406e0bc30010b0ec2eec83673a58,8bb3406e0bc30010b0ec2eec83673a70,8fb3406e0bc30010b0ec2eec83673a4b,c7b3406e0bc30010b0ec2eec83673a5e,c8c0e4cadb1744901c7b50d3e29619fc,cbb3406e0bc30010b0ec2eec83673a76"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -11748,6 +12256,87 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 08:47:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>labels</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>labels</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">83b3406e0bc30010b0ec2eec83673a49</model>
+        <model_id>83b3406e0bc30010b0ec2eec83673a49</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_83b3406e0bc30010b0ec2eec83673a49</name>
+        <next_element/>
+        <order>1000</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:27</sys_created_on>
+        <sys_id>c8c0e4cadb1744901c7b50d3e29619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -12522,7 +13111,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD886dbb7d29934490e2e545755d22d0b0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=beca3e7c-e701-404e-9959-ebf09778b09b</attributes>
+        <attributes>co_type_name=FD14c028ca5c174490c87ede7a83b56c2b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=beca3e7c-e701-404e-9959-ebf09778b09b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -12580,14 +13169,14 @@
         <sys_created_by>praveen</sys_created_by>
         <sys_created_on>2020-03-02 06:38:53</sys_created_on>
         <sys_id>bd168ba9db5704901c7b50d3e296197d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 05:18:54</sys_updated_on>
+        <sys_updated_on>2020-03-03 07:53:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -12599,7 +13188,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f2b3006e0bc30010b0ec2eec83673aed^sys_idNOT IN32b3406e0bc30010b0ec2eec83673a2a,32b3406e0bc30010b0ec2eec83673a3d,3eb3406e0bc30010b0ec2eec83673a23,72b3406e0bc30010b0ec2eec83673a03,7ab3406e0bc30010b0ec2eec83673a1d,7ab3406e0bc30010b0ec2eec83673a43,b2b3006e0bc30010b0ec2eec83673af9,b6b3406e0bc30010b0ec2eec83673a17,f2b3406e0bc30010b0ec2eec83673a0a,f2b3406e0bc30010b0ec2eec83673a11"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f2b3006e0bc30010b0ec2eec83673aed^sys_idNOT IN32b3406e0bc30010b0ec2eec83673a2a,32b3406e0bc30010b0ec2eec83673a3d,3eb3406e0bc30010b0ec2eec83673a23,72b3406e0bc30010b0ec2eec83673a03,7ab3406e0bc30010b0ec2eec83673a1d,7ab3406e0bc30010b0ec2eec83673a43,b2b3006e0bc30010b0ec2eec83673af9,b6b3406e0bc30010b0ec2eec83673a17,f2b3406e0bc30010b0ec2eec83673a0a,f2b3406e0bc30010b0ec2eec83673a11,ffb0e4cadb1744901c7b50d3e29619d0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>diskencryptionkey</element>
         <help/>
@@ -12827,6 +13416,29 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 08:47:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>labels</element>
+        <help/>
+        <hint/>
+        <label>Labels</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f2b3006e0bc30010b0ec2eec83673aed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-03 07:53:27</sys_created_on>
+        <sys_id>ffb0e4cadb1744901c7b50d3e29619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-03 07:53:27</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
