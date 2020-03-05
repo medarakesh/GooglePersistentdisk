@@ -22,11 +22,59 @@ GCPersistentDiskErrorHandler.prototype = {
     errorMessageHandling: function(inputs, outputs) {
         var errorResponse = JSON.parse(inputs.responseBody);
         outputs.errormessage = this.getGenericError(errorResponse.error.errors[0]["reason"]);
-        if (errorResponse.error.message.indexOf("Invalid value for field 'sizeGb'") != -1)
-            outputs.errormessage = "New disk size GB must be larger than existing size GB.";
+
         if (!outputs.errormessage)
             outputs.errormessage = errorResponse.error.message;
         return outputs.errormessage;
+    },
+    diskErrorMessage: function(inputs, outputs) {
+        var errorResponse = JSON.parse(inputs.responseBody);
+        outputs.errormessage = this.getGenericError(errorResponse.error.errors[0]["reason"]);
+        var errorMessage = errorResponse.error.message;
+        var errorCode = errorResponse.error.code;
+        if (errorCode == 409 && errorMessage.indexOf('already exists') != -1)
+            outputs.errormessage = "Requested disk name is already created.";
+        if (errorCode == 404 && errorMessage.indexOf('was not found') != -1)
+            outputs.errormessage = "Requested disk is doesn't exist.";
+        if (errorMessage.indexOf("Invalid value for field 'sizeGb'") != -1)
+            outputs.errormessage = "New disk size GB must be larger than existing size GB.";
+        if (!outputs.errormessage)
+            outputs.errormessage = errorMessage;
+
+        return outputs.errormessage;
+
+    },
+    snapshotErrorMessage: function(inputs, outputs) {
+        var errorResponse = JSON.parse(inputs.responseBody);
+        outputs.errormessage = this.getGenericError(errorResponse.error.errors[0]["reason"]);
+        var errorMessage = errorResponse.error.message;
+        var errorCode = errorResponse.error.code;
+        if (errorCode == 404 && errorMessage.indexOf('was not found') != -1 && errorMessage.indexOf('disks') != -1)
+            outputs.errormessage = "Requested disk is doesn't exist.";
+        if (errorCode == 404 && errorMessage.indexOf('was not found') != -1 && errorMessage.indexOf('snapshots') != -1)
+            outputs.errormessage = "Requested snapshot is doesn't exist.";
+        if (!outputs.errormessage)
+            outputs.errormessage = errorMessage;
+
+        return outputs.errormessage;
+
+    },
+    imageErrorMessage: function(inputs, outputs) {
+        var errorResponse = JSON.parse(inputs.responseBody);
+        outputs.errormessage = this.getGenericError(errorResponse.error.errors[0]["reason"]);
+        var errorMessage = errorResponse.error.message;
+        var errorCode = errorResponse.error.code;
+        if (errorCode == 404 && errorMessage.indexOf('was not found') != -1 && errorMessage.indexOf('disks') != -1)
+            outputs.errormessage = "Requested disk is doesn't exist.";
+        if (errorCode == 404 && errorMessage.indexOf('was not found') != -1 && errorMessage.indexOf('snapshots') != -1)
+            outputs.errormessage = "Requested snapshot is doesn't exist.";
+		if (errorCode == 404 && errorMessage.indexOf('was not found') != -1 && errorMessage.indexOf('images') != -1)
+            outputs.errormessage = "Requested image is doesn't exist.";
+        if (!outputs.errormessage)
+            outputs.errormessage = errorMessage;
+
+        return outputs.errormessage;
+
     },
 
     type: 'GCPersistentDiskErrorHandler'
@@ -35,13 +83,13 @@ GCPersistentDiskErrorHandler.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-18 11:23:24</sys_created_on>
         <sys_id>e46acde9db070010a16b5a75dc96195e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>GCPersistentDiskErrorHandler</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_script_include_e46acde9db070010a16b5a75dc96195e</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-02 07:11:21</sys_updated_on>
+        <sys_updated_on>2020-03-05 12:15:05</sys_updated_on>
     </sys_script_include>
 </record_update>

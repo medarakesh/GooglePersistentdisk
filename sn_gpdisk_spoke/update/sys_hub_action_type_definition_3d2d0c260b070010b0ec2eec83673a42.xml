@@ -9,13 +9,37 @@
         <category display_value="Metadata Retrieval Management">dc91deb1db070010a16b5a75dc961993</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Retrieves the list of custom images available to the specified project.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Images&lt;/b&gt;- JSON  object contains images Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt; 
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>fetch_images</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].variable}}","label":"step➛Fetch Images➛variable","type":"step","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].images}}","label":"step➛Fetch Images➛Images","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>ac4a6ca6db030c501c7b50d3e2961941</latest_snapshot>
+        <latest_snapshot>e315f7661b1bc0101f8cb844cc4bcb40</latest_snapshot>
         <master_snapshot>8b2d40660b070010b0ec2eec83673a9b</master_snapshot>
-        <name>Fetch Images</name>
+        <name>List Images</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d2d0c260b070010b0ec2eec83673a42</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Fetch Images</sys_name>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>List Images</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3d2d0c260b070010b0ec2eec83673a42</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 10:18:05</sys_updated_on>
+        <sys_updated_on>2020-03-05 12:38:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -55,7 +79,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=3d2d0c260b070010b0ec2eec83673a42^sys_idNOT IN462d00660b070010b0ec2eec83673adf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Images">3d2d0c260b070010b0ec2eec83673a42</action>
+        <action display_value="List Images">3d2d0c260b070010b0ec2eec83673a42</action>
         <cid>4bf547b8-dd63-4c66-a1c7-988385b119a2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -70,10 +94,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>462d00660b070010b0ec2eec83673adf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=462d00660b070010b0ec2eec83673adf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -222,14 +246,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>422d00660b070010b0ec2eec83673ae2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -304,14 +328,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>0a2d00660b070010b0ec2eec83673ae8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -363,7 +387,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Images">3d2d0c260b070010b0ec2eec83673a42</model>
+        <model display_value="List Images">3d2d0c260b070010b0ec2eec83673a42</model>
         <model_id>3d2d0c260b070010b0ec2eec83673a42</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_3d2d0c260b070010b0ec2eec83673a42</name>
@@ -386,14 +410,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:06</sys_created_on>
         <sys_id>062d0c260b070010b0ec2eec83673a47</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:06</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -447,7 +471,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Images">3d2d0c260b070010b0ec2eec83673a42</model>
+        <model display_value="List Images">3d2d0c260b070010b0ec2eec83673a42</model>
         <model_id>3d2d0c260b070010b0ec2eec83673a42</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_3d2d0c260b070010b0ec2eec83673a42</name>
@@ -470,14 +494,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>422d00660b070010b0ec2eec83673af4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -491,7 +515,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=3d2d0c260b070010b0ec2eec83673a42^sys_idNOT IN462d00660b070010b0ec2eec83673adf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Images">3d2d0c260b070010b0ec2eec83673a42</action>
+        <action display_value="List Images">3d2d0c260b070010b0ec2eec83673a42</action>
         <cid>4bf547b8-dd63-4c66-a1c7-988385b119a2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -506,10 +530,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>462d00660b070010b0ec2eec83673adf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=462d00660b070010b0ec2eec83673adf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -658,14 +682,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>422d00660b070010b0ec2eec83673ae2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -740,14 +764,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>0a2d00660b070010b0ec2eec83673ae8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:55:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -773,11 +797,11 @@
         <sys_created_on>2020-02-21 09:29:06</sys_created_on>
         <sys_id>462d00660b070010b0ec2eec83673add</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3d2d0c260b070010b0ec2eec83673a42_project_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:06</sys_updated_on>
         <url/>
@@ -797,11 +821,11 @@
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>8e2d00660b070010b0ec2eec83673af8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3d2d0c260b070010b0ec2eec83673a42_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
         <url/>
@@ -809,19 +833,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=3d2d0c260b070010b0ec2eec83673a42^sys_idNOT IN532d40660b070010b0ec2eec83673afc"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Fetch Images">3d2d0c260b070010b0ec2eec83673a42</action_id>
+        <action_id display_value="List Images">3d2d0c260b070010b0ec2eec83673a42</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"532d40660b070010b0ec2eec83673afc","name":"plan"}}</plan>
-        <snapshot>ac4a6ca6db030c501c7b50d3e2961941</snapshot>
+        <snapshot>e315f7661b1bc0101f8cb844cc4bcb40</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>532d40660b070010b0ec2eec83673afc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:12</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 12:38:18</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -829,33 +853,57 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrieval Management">dc91deb1db070010a16b5a75dc961993</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Retrieves the list of custom images available to the specified project.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Images&lt;/b&gt;- JSON  object contains images Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt; 
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>fetch_images</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].variable}}","label":"step➛Fetch Images➛variable","type":"step","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].images}}","label":"step➛Fetch Images➛Images","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Fetch Images</name>
+        <name>List Images</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Fetch Images">3d2d0c260b070010b0ec2eec83673a42</parent_action>
+        <parent_action display_value="List Images">3d2d0c260b070010b0ec2eec83673a42</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b2d40660b070010b0ec2eec83673a9b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:11</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 12:38:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -876,7 +924,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=8b2d40660b070010b0ec2eec83673a9b^sys_idNOT IN432d40660b070010b0ec2eec83673ab0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Images">8b2d40660b070010b0ec2eec83673a9b</action>
+        <action display_value="List Images">8b2d40660b070010b0ec2eec83673a9b</action>
         <cid>4bf547b8-dd63-4c66-a1c7-988385b119a2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1184,7 +1232,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Images">8b2d40660b070010b0ec2eec83673a9b</model>
+        <model display_value="List Images">8b2d40660b070010b0ec2eec83673a9b</model>
         <model_id>8b2d40660b070010b0ec2eec83673a9b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_8b2d40660b070010b0ec2eec83673a9b</name>
@@ -1268,7 +1316,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Images">8b2d40660b070010b0ec2eec83673a9b</model>
+        <model display_value="List Images">8b2d40660b070010b0ec2eec83673a9b</model>
         <model_id>8b2d40660b070010b0ec2eec83673a9b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_8b2d40660b070010b0ec2eec83673a9b</name>
@@ -1312,7 +1360,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=8b2d40660b070010b0ec2eec83673a9b^sys_idNOT IN432d40660b070010b0ec2eec83673ab0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Images">8b2d40660b070010b0ec2eec83673a9b</action>
+        <action display_value="List Images">8b2d40660b070010b0ec2eec83673a9b</action>
         <cid>4bf547b8-dd63-4c66-a1c7-988385b119a2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1594,11 +1642,11 @@
         <sys_created_on>2020-02-21 09:29:11</sys_created_on>
         <sys_id>432d40660b070010b0ec2eec83673aae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8b2d40660b070010b0ec2eec83673a9b_project_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:11</sys_updated_on>
         <url/>
@@ -1618,11 +1666,11 @@
         <sys_created_on>2020-02-21 09:29:11</sys_created_on>
         <sys_id>8b2d40660b070010b0ec2eec83673ac9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8b2d40660b070010b0ec2eec83673a9b_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:11</sys_updated_on>
         <url/>

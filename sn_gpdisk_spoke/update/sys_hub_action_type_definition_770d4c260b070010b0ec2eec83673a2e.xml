@@ -9,13 +9,37 @@
         <category display_value="Metadata Retrieval Management">dc91deb1db070010a16b5a75dc961993</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Retrieves the list of Zone resources available to the specified project.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Zone&lt;/b&gt;- JSON  object contains zones Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt; 
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>fetch_zones</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.projectid}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].response_body}}","label":"step➛Fetch Zones➛Response Body","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].status_code}}","label":"step➛Fetch Zones➛Status Code","type":"step","ref":""},{"name":"{{step[7fd91866-a763-4eef-855f-358d5cdb5c38].zones}}","label":"step➛Post Processing➛Zones","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].api_version}}","label":"step➛Fetch Zones➛API Version","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].u_api_version}}","label":"step➛Fetch Zones➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>23af3fe7db83cc501c7b50d3e296199f</latest_snapshot>
+        <latest_snapshot>ce253b661b1bc0101f8cb844cc4bcbed</latest_snapshot>
         <master_snapshot>291d8c260b070010b0ec2eec83673afc</master_snapshot>
-        <name>Fetch Zones</name>
+        <name>List Zones</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>770d4c260b070010b0ec2eec83673a2e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Fetch Zones</sys_name>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>List Zones</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_770d4c260b070010b0ec2eec83673a2e</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-03 10:18:01</sys_updated_on>
+        <sys_updated_on>2020-03-05 12:38:28</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -55,7 +79,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=770d4c260b070010b0ec2eec83673a2e^sys_idNOT IN330d4c260b070010b0ec2eec83673a6b,b30d4c260b070010b0ec2eec83673a4e,fb0d4c260b070010b0ec2eec83673a39"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</action>
+        <action display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -70,10 +94,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>330d4c260b070010b0ec2eec83673a6b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:42</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=330d4c260b070010b0ec2eec83673a6b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -230,14 +254,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>481d4c260b070010b0ec2eec83673a73</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -311,14 +335,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>bb0d4c260b070010b0ec2eec83673a6d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -393,14 +417,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>881d4c260b070010b0ec2eec83673a79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:42</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -413,7 +437,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</action>
+        <action display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -793,7 +817,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</action>
+        <action display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1088,7 +1112,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</model>
+        <model display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</model>
         <model_id>770d4c260b070010b0ec2eec83673a2e</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_770d4c260b070010b0ec2eec83673a2e</name>
@@ -1111,14 +1135,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:41</sys_created_on>
         <sys_id>3f0d4c260b070010b0ec2eec83673a32</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:41</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1172,7 +1196,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</model>
+        <model display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</model>
         <model_id>770d4c260b070010b0ec2eec83673a2e</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_770d4c260b070010b0ec2eec83673a2e</name>
@@ -1195,14 +1219,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>481d4c260b070010b0ec2eec83673a85</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:42</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1216,7 +1240,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=770d4c260b070010b0ec2eec83673a2e^sys_idNOT IN330d4c260b070010b0ec2eec83673a6b,b30d4c260b070010b0ec2eec83673a4e,fb0d4c260b070010b0ec2eec83673a39"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</action>
+        <action display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1231,10 +1255,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>330d4c260b070010b0ec2eec83673a6b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:42</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=330d4c260b070010b0ec2eec83673a6b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1391,14 +1415,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>481d4c260b070010b0ec2eec83673a73</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1472,14 +1496,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>bb0d4c260b070010b0ec2eec83673a6d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1554,14 +1578,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>881d4c260b070010b0ec2eec83673a79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:42</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 09:56:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1574,7 +1598,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</action>
+        <action display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1954,7 +1978,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</action>
+        <action display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2223,11 +2247,11 @@
         <sys_created_on>2020-02-21 09:28:41</sys_created_on>
         <sys_id>fb0d4c260b070010b0ec2eec83673a37</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_770d4c260b070010b0ec2eec83673a2e_projectid_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:28:41</sys_updated_on>
         <url/>
@@ -2247,11 +2271,11 @@
         <sys_created_on>2020-02-21 09:28:42</sys_created_on>
         <sys_id>841d4c260b070010b0ec2eec83673a8a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_770d4c260b070010b0ec2eec83673a2e_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:28:42</sys_updated_on>
         <url/>
@@ -2259,19 +2283,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=770d4c260b070010b0ec2eec83673a2e^sys_idNOT IN421dcc260b070010b0ec2eec83673af3"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</action_id>
+        <action_id display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"421dcc260b070010b0ec2eec83673af3","name":"plan"}}</plan>
-        <snapshot>23af3fe7db83cc501c7b50d3e296199f</snapshot>
+        <snapshot>ce253b661b1bc0101f8cb844cc4bcbed</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>421dcc260b070010b0ec2eec83673af3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:51</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 12:38:31</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2279,33 +2303,57 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrieval Management">dc91deb1db070010a16b5a75dc961993</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Retrieves the list of Zone resources available to the specified project.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Zone&lt;/b&gt;- JSON  object contains zones Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt; 
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>fetch_zones</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.projectid}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].response_body}}","label":"step➛Fetch Zones➛Response Body","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].status_code}}","label":"step➛Fetch Zones➛Status Code","type":"step","ref":""},{"name":"{{step[7fd91866-a763-4eef-855f-358d5cdb5c38].zones}}","label":"step➛Post Processing➛Zones","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].api_version}}","label":"step➛Fetch Zones➛API Version","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].u_api_version}}","label":"step➛Fetch Zones➛API Version","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Fetch Zones</name>
+        <name>List Zones</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Fetch Zones">770d4c260b070010b0ec2eec83673a2e</parent_action>
+        <parent_action display_value="List Zones">770d4c260b070010b0ec2eec83673a2e</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:28:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>291d8c260b070010b0ec2eec83673afc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:28:48</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 12:38:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2326,7 +2374,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=291d8c260b070010b0ec2eec83673afc^sys_idNOT IN291dcc260b070010b0ec2eec83673a04,b91dcc260b070010b0ec2eec83673a4e,ed1dcc260b070010b0ec2eec83673a18"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</action>
+        <action display_value="List Zones">291d8c260b070010b0ec2eec83673afc</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2582,7 +2630,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</action>
+        <action display_value="List Zones">291d8c260b070010b0ec2eec83673afc</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2940,7 +2988,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</action>
+        <action display_value="List Zones">291d8c260b070010b0ec2eec83673afc</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3359,7 +3407,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</model>
+        <model display_value="List Zones">291d8c260b070010b0ec2eec83673afc</model>
         <model_id>291d8c260b070010b0ec2eec83673afc</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_291d8c260b070010b0ec2eec83673afc</name>
@@ -3443,7 +3491,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</model>
+        <model display_value="List Zones">291d8c260b070010b0ec2eec83673afc</model>
         <model_id>291d8c260b070010b0ec2eec83673afc</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_291d8c260b070010b0ec2eec83673afc</name>
@@ -3487,7 +3535,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=291d8c260b070010b0ec2eec83673afc^sys_idNOT IN291dcc260b070010b0ec2eec83673a04,b91dcc260b070010b0ec2eec83673a4e,ed1dcc260b070010b0ec2eec83673a18"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</action>
+        <action display_value="List Zones">291d8c260b070010b0ec2eec83673afc</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3743,7 +3791,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</action>
+        <action display_value="List Zones">291d8c260b070010b0ec2eec83673afc</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4101,7 +4149,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">291d8c260b070010b0ec2eec83673afc</action>
+        <action display_value="List Zones">291d8c260b070010b0ec2eec83673afc</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4494,11 +4542,11 @@
         <sys_created_on>2020-02-21 09:28:49</sys_created_on>
         <sys_id>291dcc260b070010b0ec2eec83673a02</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_291d8c260b070010b0ec2eec83673afc_projectid_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:28:49</sys_updated_on>
         <url/>
@@ -4518,11 +4566,11 @@
         <sys_created_on>2020-02-21 09:28:50</sys_created_on>
         <sys_id>311dcc260b070010b0ec2eec83673a6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_291d8c260b070010b0ec2eec83673afc_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:28:50</sys_updated_on>
         <url/>
