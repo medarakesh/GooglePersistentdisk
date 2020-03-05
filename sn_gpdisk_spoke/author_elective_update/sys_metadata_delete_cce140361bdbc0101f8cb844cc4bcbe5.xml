@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="snapshot" table="var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:56:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cc8b15adb9384901c7b50d3e29619b1</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEMO-SNAPSHOT</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b69f55adb9384901c7b50d3e296197a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>demo-snapshot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEMOSNAPSHOTDFSF</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>2</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:46:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa396baa1bd7c0101f8cb844cc4bcbd4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>demosnapshotdfsf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPHSOT-1001</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>3</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b69f55adb9384901c7b50d3e296197b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snaphsot-1001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPHSOT-DISK2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>4</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0769f55adb9384901c7b50d3e296197c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snaphsot-disk2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-10</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>5</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0769f95adb9384901c7b50d3e2961985</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-2-DISK2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>6</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf69f95adb9384901c7b50d3e2961985</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-2-disk2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-1001</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>7</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b69f95adb9384901c7b50d3e2961986</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-1001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-1002</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>8</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4769f95adb9384901c7b50d3e2961987</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-1002</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-1004</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>9</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0369f95adb9384901c7b50d3e2961988</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-1004</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>10</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb69f95adb9384901c7b50d3e2961988</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>snapshot</element>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_id>4369f55adb9384901c7b50d3e296197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-04 08:59:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</application>
+        <file_path/>
+        <instance_id>d8ac4750db3bfb400ae3ac44d496197d</instance_id>
+        <instance_name>aniket</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9_snapshot</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="snapshot" table="var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:56:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cc8b15adb9384901c7b50d3e29619b1</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEMO-SNAPSHOT</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b69f55adb9384901c7b50d3e296197a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>demo-snapshot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEMOSNAPSHOTDFSF</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>2</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:46:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa396baa1bd7c0101f8cb844cc4bcbd4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>demosnapshotdfsf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPHSOT-1001</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>3</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b69f55adb9384901c7b50d3e296197b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snaphsot-1001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPHSOT-DISK2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>4</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0769f55adb9384901c7b50d3e296197c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snaphsot-disk2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-10</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>5</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0769f95adb9384901c7b50d3e2961985</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-2-DISK2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>6</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf69f95adb9384901c7b50d3e2961985</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-2-disk2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-1001</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>7</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b69f95adb9384901c7b50d3e2961986</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-1001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-1002</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>8</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4769f95adb9384901c7b50d3e2961987</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-1002</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-1004</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>9</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0369f95adb9384901c7b50d3e2961988</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-1004</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNAPSHOT-DISK1-2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sequence>10</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb69f95adb9384901c7b50d3e2961988</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:50:03</sys_updated_on>
+            <value>snapshot-disk1-2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>snapshot</element>
+            <name>var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-04 08:59:21</sys_created_on>
+            <sys_id>4369f55adb9384901c7b50d3e296197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-04 08:59:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1450478091</payload_hash>
+        <record_name>.Snapshot</record_name>
+        <reverted_from/>
+        <source>2d0873aa1b1bc0101f8cb844cc4bcbc4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-05 13:34:00</sys_created_on>
+        <sys_id>4ce140361bdbc0101f8cb844cc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170aae726e00000001</sys_recorded_at>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 13:34:00</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>88e1403605dbc010c806238c2d118aef</update_guid>
+        <update_guid_history>88e1403605dbc010c806238c2d118aef:0,439bf76ab45bc0107cbbdf0cc6730b9b:1951740748,479bf76a935bc0100a2c71751d1c2b98:-2056654027,0f9bf76ab65bc0100068fe6ea9743195:1539245468,c39bf76a4b5bc0103dba205bb1485193:-1040406044,8b9bf76a135bc0109e3635c77e045390:-776495827,439bf76a6e5bc01057f1ae1bddc3d98e:-438861511,0b9bf76ab35bc010098d158daf59fa8b:-1488239036,0b9bf76adb5bc0105b9e713e1dcd387c:-110013588,cf9bf76a7a5bc0105457f4aa5c231679:-2108697767,879bf76a075bc01030d5f0e676605477:-1631882805,8f9bf76a795bc010799c4f9639b21674:1861763802,039bf76a2d5bc010c024b98792f2b973:-920134597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-05 14:31:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>cce140361bdbc0101f8cb844cc4bcbe5</sys_id>
+        <sys_metadata>cce140361bdbc0101f8cb844cc4bcbe5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>snapshot</sys_name>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_scope_delete display_value="">542ee3df47bf455ca57d14a0853cf090</sys_scope_delete>
+        <sys_update_name/>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_input_6e06f5d6db9384901c7b50d3e29619b9_snapshot">4ce140361bdbc0101f8cb844cc4bcbef</sys_update_version>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 14:31:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

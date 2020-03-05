@@ -55,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6eaf482a0b070010b0ec2eec83673a7f</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>Create Image For Snapshot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6eaf482a0b070010b0ec2eec83673a7f</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-05 12:12:46</sys_updated_on>
+        <sys_updated_on>2020-03-05 14:49:13</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -4145,11 +4145,11 @@
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>3eaf482a0b070010b0ec2eec83673a8a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f_project_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:05</sys_updated_on>
         <url/>
@@ -4168,11 +4168,11 @@
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>7eaf482a0b070010b0ec2eec83673a93</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Snapshot</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f_snapshot_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:05</sys_updated_on>
         <url/>
@@ -4191,11 +4191,11 @@
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>b2af482a0b070010b0ec2eec83673aa0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f_description_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:05</sys_updated_on>
         <url/>
@@ -4214,11 +4214,11 @@
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>f2af482a0b070010b0ec2eec83673aa6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Labels</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f_labels_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:05</sys_updated_on>
         <url/>
@@ -4237,38 +4237,16 @@
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>f6af482a0b070010b0ec2eec83673a9a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Name</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:05</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN4a604442dbd344901c7b50d3e29619bb"/>
-    <sys_choice field="snapshot" table="var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>snapshot</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- None --</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
-            <sequence>0</sequence>
-            <sys_created_by>praveen</sys_created_by>
-            <sys_created_on>2020-03-03 05:32:09</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4a604442dbd344901c7b50d3e29619bb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>praveen</sys_updated_by>
-            <sys_updated_on>2020-03-03 05:32:09</sys_updated_on>
-            <value/>
-        </sys_choice>
-    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN43afd188db5300901c7b50d3e2961908,83af882a0b070010b0ec2eec83673a4f,9faf882a0b070010b0ec2eec83673a54"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>image</element>
@@ -4283,11 +4261,11 @@
         <sys_created_on>2020-02-26 07:20:31</sys_created_on>
         <sys_id>43afd188db5300901c7b50d3e2961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Image</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f_image_en</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
         <sys_updated_on>2020-02-26 07:20:31</sys_updated_on>
         <url/>
@@ -4306,11 +4284,11 @@
         <sys_created_on>2020-02-21 09:40:07</sys_created_on>
         <sys_id>83af882a0b070010b0ec2eec83673a4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:07</sys_updated_on>
         <url/>
@@ -4329,11 +4307,11 @@
         <sys_created_on>2020-02-21 09:40:07</sys_created_on>
         <sys_id>9faf882a0b070010b0ec2eec83673a54</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f_errormessage_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:07</sys_updated_on>
         <url/>
@@ -8558,11 +8536,11 @@
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>11bf0c2a0b070010b0ec2eec83673aed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Labels</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd_labels_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
         <url/>
@@ -8581,11 +8559,11 @@
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>15bf0c2a0b070010b0ec2eec83673ae1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Name</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
         <url/>
@@ -8604,11 +8582,11 @@
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>59bf0c2a0b070010b0ec2eec83673ad1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd_project_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
         <url/>
@@ -8627,11 +8605,11 @@
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>99bf0c2a0b070010b0ec2eec83673ada</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Snapshot</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd_snapshot_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
         <url/>
@@ -8650,38 +8628,16 @@
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>ddbf0c2a0b070010b0ec2eec83673ae6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd_description_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN0e704842dbd344901c7b50d3e2961939"/>
-    <sys_choice field="snapshot" table="var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>snapshot</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- None --</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
-            <sequence>0</sequence>
-            <sys_created_by>praveen</sys_created_by>
-            <sys_created_on>2020-03-03 05:32:26</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0e704842dbd344901c7b50d3e2961939</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>praveen</sys_updated_by>
-            <sys_updated_on>2020-03-03 05:32:26</sys_updated_on>
-            <value/>
-        </sys_choice>
-    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN35bf4c2a0b070010b0ec2eec83673aa8,39bf4c2a0b070010b0ec2eec83673aa2,84cf9588db5300901c7b50d3e29619d4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>errormessage</element>
@@ -8696,11 +8652,11 @@
         <sys_created_on>2020-02-21 09:40:18</sys_created_on>
         <sys_id>35bf4c2a0b070010b0ec2eec83673aa8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd_errormessage_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:18</sys_updated_on>
         <url/>
@@ -8719,11 +8675,11 @@
         <sys_created_on>2020-02-21 09:40:18</sys_created_on>
         <sys_id>39bf4c2a0b070010b0ec2eec83673aa2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:18</sys_updated_on>
         <url/>
@@ -8742,11 +8698,11 @@
         <sys_created_on>2020-02-26 07:20:52</sys_created_on>
         <sys_id>84cf9588db5300901c7b50d3e29619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Image</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd_image_en</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
         <sys_updated_on>2020-02-26 07:20:52</sys_updated_on>
         <url/>
