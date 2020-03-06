@@ -15,6 +15,7 @@
 &lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
 &lt;/li&gt;
 &lt;br/&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt;- JSON  object contains snapshots Label and Name.&lt;/li&gt;
@@ -35,8 +36,8 @@
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>false</ih_action>
         <internal_name>fetch_snapshots</internal_name>
-        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].variable}}","label":"step➛Fetch snapshots➛variable","type":"step","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].snapshots}}","label":"step➛Fetch snapshots➛Snapshots","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>2115b7661b1bc0101f8cb844cc4bcb50</latest_snapshot>
+        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].variable}}","label":"step➛List snapshots➛variable","type":"step","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].snapshots}}","label":"step➛List snapshots➛Snapshots","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>477890cbdb9fc4901c7b50d3e2961949</latest_snapshot>
         <master_snapshot>ac4dc0660b070010b0ec2eec83673ac8</master_snapshot>
         <name>List Snapshots</name>
         <natlang/>
@@ -49,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f3d80660b070010b0ec2eec83673aa5</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>List Snapshots</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
@@ -57,7 +58,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6f3d80660b070010b0ec2eec83673aa5</sys_update_name>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-05 14:51:35</sys_updated_on>
+        <sys_updated_on>2020-03-06 10:07:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -85,7 +86,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Fetch snapshots</label>
+        <label>List snapshots</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -93,10 +94,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:30</sys_created_on>
         <sys_id>273d80660b070010b0ec2eec83673ab1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
+        <sys_updated_on>2020-03-06 08:59:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=273d80660b070010b0ec2eec83673ab1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -222,7 +223,7 @@
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch snapshots">273d80660b070010b0ec2eec83673ab1</model>
+        <model display_value="List snapshots">273d80660b070010b0ec2eec83673ab1</model>
         <model_id>273d80660b070010b0ec2eec83673ab1</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_273d80660b070010b0ec2eec83673ab1</name>
@@ -304,7 +305,7 @@
         <label>snapshots</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch snapshots">273d80660b070010b0ec2eec83673ab1</model>
+        <model display_value="List snapshots">273d80660b070010b0ec2eec83673ab1</model>
         <model_id>273d80660b070010b0ec2eec83673ab1</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_273d80660b070010b0ec2eec83673ab1</name>
@@ -521,7 +522,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Fetch snapshots</label>
+        <label>List snapshots</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -529,10 +530,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:30</sys_created_on>
         <sys_id>273d80660b070010b0ec2eec83673ab1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
+        <sys_updated_on>2020-03-06 08:59:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=273d80660b070010b0ec2eec83673ab1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -658,7 +659,7 @@
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch snapshots">273d80660b070010b0ec2eec83673ab1</model>
+        <model display_value="List snapshots">273d80660b070010b0ec2eec83673ab1</model>
         <model_id>273d80660b070010b0ec2eec83673ab1</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_273d80660b070010b0ec2eec83673ab1</name>
@@ -740,7 +741,7 @@
         <label>snapshots</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch snapshots">273d80660b070010b0ec2eec83673ab1</model>
+        <model display_value="List snapshots">273d80660b070010b0ec2eec83673ab1</model>
         <model_id>273d80660b070010b0ec2eec83673ab1</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_273d80660b070010b0ec2eec83673ab1</name>
@@ -796,11 +797,11 @@
         <sys_created_on>2020-02-21 09:29:30</sys_created_on>
         <sys_id>273d80660b070010b0ec2eec83673aaf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6f3d80660b070010b0ec2eec83673aa5_project_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:30</sys_updated_on>
         <url/>
@@ -820,11 +821,11 @@
         <sys_created_on>2020-02-21 09:29:30</sys_created_on>
         <sys_id>7f3d80660b070010b0ec2eec83673aca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6f3d80660b070010b0ec2eec83673aa5_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:30</sys_updated_on>
         <url/>
@@ -834,17 +835,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="List Snapshots">6f3d80660b070010b0ec2eec83673aa5</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7c4d04660b070010b0ec2eec83673a1c","name":"plan"}}</plan>
-        <snapshot>2115b7661b1bc0101f8cb844cc4bcb50</snapshot>
+        <snapshot>477890cbdb9fc4901c7b50d3e2961949</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c4d04660b070010b0ec2eec83673a1c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-05 12:38:09</sys_updated_on>
+        <sys_updated_on>2020-03-06 09:51:18</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -861,6 +862,7 @@
 &lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
 &lt;/li&gt;
 &lt;br/&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt;- JSON  object contains snapshots Label and Name.&lt;/li&gt;
@@ -880,7 +882,7 @@
 
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>fetch_snapshots</internal_name>
-        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].variable}}","label":"step➛Fetch snapshots➛variable","type":"step","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].snapshots}}","label":"step➛Fetch snapshots➛Snapshots","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].variable}}","label":"step➛List snapshots➛variable","type":"step","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].snapshots}}","label":"step➛List snapshots➛Snapshots","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>List Snapshots</name>
         <natlang/>
@@ -893,7 +895,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac4dc0660b070010b0ec2eec83673ac8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -901,7 +903,7 @@
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
         <sys_updated_by>praveen</sys_updated_by>
-        <sys_updated_on>2020-03-05 12:38:08</sys_updated_on>
+        <sys_updated_on>2020-03-06 09:51:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -929,7 +931,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Fetch snapshots</label>
+        <label>List snapshots</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -937,10 +939,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:34</sys_created_on>
         <sys_id>bc4dc0660b070010b0ec2eec83673ad0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:34</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-06 08:59:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc4dc0660b070010b0ec2eec83673ad0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1066,7 +1068,7 @@
         <label>projectid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
+        <model display_value="List snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
         <model_id>bc4dc0660b070010b0ec2eec83673ad0</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_bc4dc0660b070010b0ec2eec83673ad0</name>
@@ -1148,7 +1150,7 @@
         <label>snapshots</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
+        <model display_value="List snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
         <model_id>bc4dc0660b070010b0ec2eec83673ad0</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_bc4dc0660b070010b0ec2eec83673ad0</name>
@@ -1365,7 +1367,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Fetch snapshots</label>
+        <label>List snapshots</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -1373,10 +1375,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:34</sys_created_on>
         <sys_id>bc4dc0660b070010b0ec2eec83673ad0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:34</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-06 08:59:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc4dc0660b070010b0ec2eec83673ad0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1502,7 +1504,7 @@
         <label>projectid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
+        <model display_value="List snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
         <model_id>bc4dc0660b070010b0ec2eec83673ad0</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_bc4dc0660b070010b0ec2eec83673ad0</name>
@@ -1584,7 +1586,7 @@
         <label>snapshots</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
+        <model display_value="List snapshots">bc4dc0660b070010b0ec2eec83673ad0</model>
         <model_id>bc4dc0660b070010b0ec2eec83673ad0</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_bc4dc0660b070010b0ec2eec83673ad0</name>
@@ -1640,11 +1642,11 @@
         <sys_created_on>2020-02-21 09:29:34</sys_created_on>
         <sys_id>ac4dc0660b070010b0ec2eec83673ace</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ac4dc0660b070010b0ec2eec83673ac8_project_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:34</sys_updated_on>
         <url/>
@@ -1664,11 +1666,11 @@
         <sys_created_on>2020-02-21 09:29:34</sys_created_on>
         <sys_id>b44dc0660b070010b0ec2eec83673aea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ac4dc0660b070010b0ec2eec83673ac8_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:29:34</sys_updated_on>
         <url/>

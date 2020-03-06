@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="disk" table="var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-03 05:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0c20886dbd344901c7b50d3e29619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-03 05:42:24</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8428a76a1bd7c0101f8cb844cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DISK2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>2</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4028a76a1bd7c0101f8cb844cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>disk2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EASTDISK</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>3</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c28a76a1bd7c0101f8cb844cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>eastdisk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NEWDISK-DEMO</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>4</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c428a76a1bd7c0101f8cb844cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>newdisk-demo</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>disk</element>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-03 05:42:24</sys_created_on>
+            <sys_id>0cc20886dbd344901c7b50d3e29619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-03 05:42:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</application>
+        <file_path/>
+        <instance_id>d8ac4750db3bfb400ae3ac44d496197d</instance_id>
+        <instance_name>aniket</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2_disk</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="disk" table="var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-03 05:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0c20886dbd344901c7b50d3e29619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-03 05:42:24</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8428a76a1bd7c0101f8cb844cc4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DISK2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>2</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4028a76a1bd7c0101f8cb844cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>disk2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EASTDISK</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>3</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c28a76a1bd7c0101f8cb844cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>eastdisk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NEWDISK-DEMO</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sequence>4</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-05 11:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c428a76a1bd7c0101f8cb844cc4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-05 11:41:29</sys_updated_on>
+            <value>newdisk-demo</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>disk</element>
+            <name>var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-03 05:42:24</sys_created_on>
+            <sys_id>0cc20886dbd344901c7b50d3e29619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-03 05:42:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>198859618</payload_hash>
+        <record_name>.Disk</record_name>
+        <reverted_from/>
+        <source>2d0873aa1b1bc0101f8cb844cc4bcbc4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-05 13:34:02</sys_created_on>
+        <sys_id>18e180361bdbc0101f8cb844cc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170aae72d4e0000001</sys_recorded_at>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 13:34:02</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>54e180360fdbc0105d40e4295f16ed9b</update_guid>
+        <update_guid_history>54e180360fdbc0105d40e4295f16ed9b:0,f6b8b76eb11bc010611d1cad19a8f940:-516923714,fab8b76e8c1bc010438a5feabbc6493d:-1221781893,b2b8b76e431bc0100037668afefe963b:603048119,7ab8b76e9c1bc01049c3f9240c0c1838:-106557048,72b8b76e5c1bc0109605f2a47dce2f36:-531251272,f2b8b76e451bc0101e1aa20557184034:1752073854</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-06 10:01:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>2c735847db9fc4901c7b50d3e29619c3</sys_id>
+        <sys_metadata>2c735847db9fc4901c7b50d3e29619c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_scope_delete display_value="">542ee3df47bf455ca57d14a0853cf090</sys_scope_delete>
+        <sys_update_name/>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_input_891f48e60b070010b0ec2eec83673ae2_disk">18e180361bdbc0101f8cb844cc4bcb9b</sys_update_version>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-06 10:01:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
