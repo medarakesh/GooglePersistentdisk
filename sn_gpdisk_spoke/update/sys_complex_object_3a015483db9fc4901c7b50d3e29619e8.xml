@@ -6,7 +6,7 @@
         <scope_name>06a7f79ddb8b0010c5267bfdae9619b4</scope_name>
         <serialized_content>{"FlowDesigner:FD76015483539fc4903acac0f70d03c6e8":{"defaultDiskSizeGb":"String","defaultDiskSizeGb.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Default Disk Size GB\",\"mandatory\":\"true\",\"order\":\"7\",\"max_length\":\"0\"}"},"Creation_Time_Stamp":"String","Creation_Time_Stamp.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Creation Time Stamp\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"},"zone":"String","zone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zone\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"},"kind":"String","kind.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Kind\",\"mandatory\":\"true\",\"order\":\"8\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"validDiskSize":"String","validDiskSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Valid Disk Size\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"},"selfLink":"String","selfLink.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Self Link\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"}},"FlowDesigner:FD76015483539fc4903acac0f70d03c6e8.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD76015483539fc4903acac0f70d03c6e8\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"disk_type\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"353fa201-355c-4500-a05b-d27b07fd59ed\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>praveen</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-06 09:18:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -18,7 +18,7 @@
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_complex_object_3a015483db9fc4901c7b50d3e29619e8</sys_update_name>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 09:18:45</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
