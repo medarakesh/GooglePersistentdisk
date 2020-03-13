@@ -19,7 +19,7 @@
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt;- JSON  object contains snapshots Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -57,7 +57,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6f3d80660b070010b0ec2eec83673aa5</sys_update_name>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 10:07:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
@@ -96,7 +96,7 @@
         <sys_id>273d80660b070010b0ec2eec83673ab1</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 08:59:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=273d80660b070010b0ec2eec83673ab1"/>
@@ -252,7 +252,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -334,7 +334,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -416,7 +416,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -500,7 +500,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -532,7 +532,7 @@
         <sys_id>273d80660b070010b0ec2eec83673ab1</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 08:59:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=273d80660b070010b0ec2eec83673ab1"/>
@@ -688,7 +688,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -770,7 +770,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-05 09:56:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
@@ -844,7 +844,7 @@
         <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 09:51:18</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
@@ -866,7 +866,7 @@
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt;- JSON  object contains snapshots Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -902,7 +902,7 @@
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 09:51:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
@@ -941,7 +941,7 @@
         <sys_id>bc4dc0660b070010b0ec2eec83673ad0</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 08:59:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc4dc0660b070010b0ec2eec83673ad0"/>
@@ -1377,7 +1377,7 @@
         <sys_id>bc4dc0660b070010b0ec2eec83673ad0</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 08:59:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc4dc0660b070010b0ec2eec83673ad0"/>
