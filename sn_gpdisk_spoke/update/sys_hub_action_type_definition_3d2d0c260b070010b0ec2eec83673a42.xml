@@ -9,7 +9,7 @@
         <category display_value="Metadata Retrieval Management">dc91deb1db070010a16b5a75dc961993</category>
         <copied_from/>
         <copied_from_name/>
-        <description>&lt;p&gt;Retrieves the list of custom images available to the specified project.&lt;/p&gt;
+        <description>&lt;p&gt;Retrieves the list of images available to the specified project.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
@@ -18,7 +18,7 @@
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Images&lt;/b&gt;- JSON  object contains images Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Images&lt;/b&gt; - JSON  object contains images Label and Name.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
@@ -37,7 +37,7 @@
         <ih_action>false</ih_action>
         <internal_name>fetch_images</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].variable}}","label":"step➛List Images➛variable","type":"step","ref":""},{"name":"{{step[4bf547b8-dd63-4c66-a1c7-988385b119a2].images}}","label":"step➛List Images➛Images","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>9bdc480fdb5fc4901c7b50d3e29619e4</latest_snapshot>
+        <latest_snapshot>e92ce2ee1bef40501f8cb844cc4bcbce</latest_snapshot>
         <master_snapshot>8b2d40660b070010b0ec2eec83673a9b</master_snapshot>
         <name>List Images</name>
         <natlang/>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d2d0c260b070010b0ec2eec83673a42</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>List Images</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3d2d0c260b070010b0ec2eec83673a42</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 10:09:26</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:35:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -94,10 +94,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>462d00660b070010b0ec2eec83673adf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 08:59:57</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=462d00660b070010b0ec2eec83673adf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -108,11 +108,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>422d00660b070010b0ec2eec83673af1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:39</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
     });
     var obj = []
@@ -530,10 +530,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>462d00660b070010b0ec2eec83673adf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 08:59:57</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=462d00660b070010b0ec2eec83673adf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -544,11 +544,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:07</sys_created_on>
         <sys_id>422d00660b070010b0ec2eec83673af1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:07</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:39</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
     });
     var obj = []
@@ -835,17 +835,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="List Images">3d2d0c260b070010b0ec2eec83673a42</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"532d40660b070010b0ec2eec83673afc","name":"plan"}}</plan>
-        <snapshot>9bdc480fdb5fc4901c7b50d3e29619e4</snapshot>
+        <snapshot>e92ce2ee1bef40501f8cb844cc4bcbce</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>532d40660b070010b0ec2eec83673afc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:00:38</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:35:12</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -856,7 +856,7 @@
         <category display_value="Metadata Retrieval Management">dc91deb1db070010a16b5a75dc961993</category>
         <copied_from/>
         <copied_from_name/>
-        <description>&lt;p&gt;Retrieves the list of custom images available to the specified project.&lt;/p&gt;
+        <description>&lt;p&gt;Retrieves the list of images available to the specified project.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
@@ -865,7 +865,7 @@
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Images&lt;/b&gt;- JSON  object contains images Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Images&lt;/b&gt; - JSON  object contains images Label and Name.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
@@ -895,15 +895,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b2d40660b070010b0ec2eec83673a9b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:00:33</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:35:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -939,10 +939,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:11</sys_created_on>
         <sys_id>432d40660b070010b0ec2eec83673ab0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:00:33</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=432d40660b070010b0ec2eec83673ab0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -953,11 +953,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:11</sys_created_on>
         <sys_id>4f2d40660b070010b0ec2eec83673ac1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:11</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:44</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
     });
     var obj = []
@@ -1375,10 +1375,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:11</sys_created_on>
         <sys_id>432d40660b070010b0ec2eec83673ab0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:00:33</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=432d40660b070010b0ec2eec83673ab0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1389,11 +1389,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:11</sys_created_on>
         <sys_id>4f2d40660b070010b0ec2eec83673ac1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:29:11</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:57:44</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gpdisk_spoke.list_images', {
         "project_id": inputs.projectid
     });
     var obj = []

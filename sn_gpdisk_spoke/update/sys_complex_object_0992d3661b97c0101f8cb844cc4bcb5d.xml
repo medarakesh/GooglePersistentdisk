@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4592d366b997c010c0345efb835a2d5d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>06a7f79ddb8b0010c5267bfdae9619b4</scope_name>
+        <serialized_content>{"FlowDesigner:FD4592d366b997c010c0345efb835a2d5d":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD4592d366b997c010c0345efb835a2d5d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Licenses\",\"mandatory\":\"false\",\"child_name\":\"license\",\"uiUniqueId\":\"1097b6bb-874e-432e-9883-f990a5a4260d\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD4592d366b997c010c0345efb835a2d5d\",\"child_label\":\"License\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"10\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"c13393e0-d7da-408e-94e9-939e6eb0c002\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-05 10:07:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0992d3661b97c0101f8cb844cc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD4592d366b997c010c0345efb835a2d5d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_complex_object_0992d3661b97c0101f8cb844cc4bcb5d</sys_update_name>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-05 10:07:21</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

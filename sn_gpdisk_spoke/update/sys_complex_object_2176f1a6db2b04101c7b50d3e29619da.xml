@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD6d76f1a6cf2b04100084afddda7fd6d9</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>06a7f79ddb8b0010c5267bfdae9619b4</scope_name>
+        <serialized_content>{"FlowDesigner:FD6d76f1a6cf2b04100084afddda7fd6d9":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD6d76f1a6cf2b04100084afddda7fd6d9.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Storage Locations\",\"mandatory\":\"false\",\"child_name\":\"storageLocation\",\"uiUniqueId\":\"da39d1ad-9e07-49ec-984e-d4a7cf87b48a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD6d76f1a6cf2b04100084afddda7fd6d9\",\"child_label\":\"Storage Location\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"8\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"8f5294df-4498-484a-b6a5-e62fcff07de5\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:40:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2176f1a6db2b04101c7b50d3e29619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD6d76f1a6cf2b04100084afddda7fd6d9</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name>sys_complex_object_2176f1a6db2b04101c7b50d3e29619da</sys_update_name>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:40:36</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

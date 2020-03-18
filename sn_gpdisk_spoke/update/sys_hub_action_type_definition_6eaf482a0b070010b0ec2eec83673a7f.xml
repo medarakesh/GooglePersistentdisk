@@ -16,13 +16,15 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt; - Name of the snapshot.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Name&lt;/b&gt; - Name of the image.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Family&lt;/b&gt; - Name of the image family to which this image belongs.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Description&lt;/b&gt; - description of this resource.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Labels&lt;/b&gt; - Labels is an object containing Key and Value.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Storage Locations&lt;/b&gt; - Storage location of the image.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Image&lt;/b&gt; - Image is an object containing Name,Insert Time,Self Link,Start Time,Target Link,User.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Image&lt;/b&gt; - Image is an object containing Name, Insert Time, Self-Link, Start Time, Target Link, User.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
@@ -41,10 +43,10 @@
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>create_image_for_snapshot</internal_name>
-        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.disk}}","label":"action➛Disk","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.labels}}","label":"action➛Labels","type":"action","ref":""},{"name":"{{action.labels.Label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label.Key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.Value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.labels.label.value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.snapshot}}","label":"action➛Snapshot","type":"action","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10]._}}","label":"step➛Pre Processing➛","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].disk}}","label":"step➛Pre Processing➛Disk","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].requestbody}}","label":"step➛Pre Processing➛requestBody","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].response_body}}","label":"step➛Create Image➛Response Body","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].status_code}}","label":"step➛Create Image➛Status Code","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image}}","label":"step➛Post Processing➛Image","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].u_api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child1}}","label":"step➛Post Processing➛image➛image_child1","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child2}}","label":"step➛Post Processing➛image➛image_child2","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child3}}","label":"step➛Post Processing➛image➛image_child3","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child4}}","label":"step➛Post Processing➛image➛image_child4","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child5}}","label":"step➛Post Processing➛image➛image_child5","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Insert_Time}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.insertTime}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Self_Link}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.selfLink}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Start_Time}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.startTime}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Target_Link}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.targetLink}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child6}}","label":"step➛Post Processing➛image➛image_child6","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.User}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.user}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>b3751cc7db9fc4901c7b50d3e29619e5</latest_snapshot>
+        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.disk}}","label":"action➛Disk","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.labels}}","label":"action➛Labels","type":"action","ref":""},{"name":"{{action.labels.Label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label.Key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.Value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.labels.label.value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.snapshot}}","label":"action➛Snapshot","type":"action","ref":""},{"name":"{{action.family}}","label":"action➛Family","type":"action","ref":""},{"name":"{{action.storage_locations}}","label":"action➛Storage Locations","type":"action","ref":""},{"name":"{{action.storagelocations}}","label":"action➛Storage Locations","type":"action","ref":""},{"name":"{{action.storagelocations.Storage_Location}}","label":"action➛Storage Locations➛Storage Location","type":"action","ref":""},{"name":"{{action.storagelocations.storageLocation}}","label":"action➛Storage Locations➛Storage Location","type":"action","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10]._}}","label":"step➛Pre Processing➛","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].disk}}","label":"step➛Pre Processing➛Disk","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].requestbody}}","label":"step➛Pre Processing➛requestBody","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].response_body}}","label":"step➛Create Image➛Response Body","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].status_code}}","label":"step➛Create Image➛Status Code","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image}}","label":"step➛Post Processing➛Image","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].u_api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child1}}","label":"step➛Post Processing➛image➛image_child1","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child2}}","label":"step➛Post Processing➛image➛image_child2","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child3}}","label":"step➛Post Processing➛image➛image_child3","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child4}}","label":"step➛Post Processing➛image➛image_child4","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child5}}","label":"step➛Post Processing➛image➛image_child5","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Insert_Time}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.insertTime}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Self_Link}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.selfLink}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Start_Time}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.startTime}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Target_Link}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.targetLink}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child6}}","label":"step➛Post Processing➛image➛image_child6","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.User}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.user}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>540ae26e1bef40501f8cb844cc4bcb9a</latest_snapshot>
         <master_snapshot>95bf0c2a0b070010b0ec2eec83673abd</master_snapshot>
-        <name>Create Image For Snapshot</name>
+        <name>Create Image for Snapshot</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -55,15 +57,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6eaf482a0b070010b0ec2eec83673a7f</sys_id>
-        <sys_mod_count>65</sys_mod_count>
-        <sys_name>Create Image For Snapshot</sys_name>
+        <sys_mod_count>86</sys_mod_count>
+        <sys_name>Create Image for Snapshot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6eaf482a0b070010b0ec2eec83673a7f</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 10:08:12</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -122,7 +124,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN07af482a0b070010b0ec2eec83673adc,72af482a0b070010b0ec2eec83673aaa,cbaf482a0b070010b0ec2eec83673af9"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
+        <action display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
         <cid>4c19ef11-2678-43e2-a489-2e70bdcc8e30</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -511,7 +513,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
+        <action display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
         <cid>29dbebaa-1c6f-47e5-ba29-31cdf173ae10</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -526,10 +528,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>72af482a0b070010b0ec2eec83673aaa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:08:56</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:56:12</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72af482a0b070010b0ec2eec83673aaa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -554,28 +556,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:06</sys_created_on>
         <sys_id>f6af482a0b070010b0ec2eec83673ad8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:08:56</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:56:12</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'snapshot', 'name']);
     gcc.maptoOutputFromInput(inputs, outputs, ['projectid']);
-    var requestBody = {
-        "name": inputs.name.toLowerCase(),
-        "description": inputs.description,
-        "sourceSnapshot": "projects/" + inputs.projectid + "/global" + "/snapshots/" + inputs.snapshot
-    }
-    if (inputs.labels.length &gt; 0 ) {
-        var labels = {};
-        inputs.labels.forEach(function(label) {
-          if (label['key'].trim() &amp;&amp; label['value'].trim() )
-            labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
-        })
-        requestBody.labels = labels;
-    }
-    outputs.requestbody = JSON.stringify(requestBody);
+    gcc.createImage(inputs, outputs, 'Snapshot');
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -603,6 +592,18 @@
         <sys_updated_on>2020-02-21 09:40:06</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
         <value>{{action.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>family</field>
+        <id>72af482a0b070010b0ec2eec83673aaa</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>1e7735e6db2b04101c7b50d3e29619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
+        <value>{{action.family}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>labels</field>
@@ -664,7 +665,181 @@
         <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
         <value>{{action.snapshot}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=72af482a0b070010b0ec2eec83673aaa^sys_idNOT IN3eaf482a0b070010b0ec2eec83673ab2,76af482a0b070010b0ec2eec83673ab8,7eaf482a0b070010b0ec2eec83673aac,beaf482a0b070010b0ec2eec83673abd,f6af482a0b070010b0ec2eec83673ac3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>storageLocations</field>
+        <id>72af482a0b070010b0ec2eec83673aaa</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>5a7735e6db2b04101c7b50d3e29619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
+        <value>{{action.storagelocations}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=72af482a0b070010b0ec2eec83673aaa^sys_idNOT IN127735e6db2b04101c7b50d3e29619e0,127735e6db2b04101c7b50d3e29619e5,3eaf482a0b070010b0ec2eec83673ab2,76af482a0b070010b0ec2eec83673ab8,7eaf482a0b070010b0ec2eec83673aac,beaf482a0b070010b0ec2eec83673abd,f6af482a0b070010b0ec2eec83673ac3"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>family</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">72af482a0b070010b0ec2eec83673aaa</model>
+        <model_id>72af482a0b070010b0ec2eec83673aaa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>127735e6db2b04101c7b50d3e29619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>storageLocations</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">72af482a0b070010b0ec2eec83673aaa</model>
+        <model_id>72af482a0b070010b0ec2eec83673aaa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>127735e6db2b04101c7b50d3e29619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1234,7 +1409,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
+        <action display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
         <cid>f70acaf0-f504-4f23-aad8-0fae4e3e48e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1748,12 +1923,12 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN76af482a0b070010b0ec2eec83673aa1,7eaf482a0b070010b0ec2eec83673a85,baaf482a0b070010b0ec2eec83673a9b,feaf482a0b070010b0ec2eec83673a8b,feaf482a0b070010b0ec2eec83673a95"/>
+    <sys_hub_action_input action="delete_multiple" query="model=6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN76af482a0b070010b0ec2eec83673aa1,7eaf482a0b070010b0ec2eec83673a85,9a7735e6db2b04101c7b50d3e29619a3,baaf482a0b070010b0ec2eec83673a9b,de7735e6db2b04101c7b50d3e29619cc,feaf482a0b070010b0ec2eec83673a8b,feaf482a0b070010b0ec2eec83673a95"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=5a6909ce-f213-46da-949c-509d847c76ee,co_type_name=FDef531c53de320010eba70fb28203e64e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
+        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=f5bb33f4-fe24-4dac-9e4b-3b3e42a4901b,co_type_name=FDef531c53de320010eba70fb28203e64e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1788,12 +1963,12 @@
         <label>Labels</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
         <next_element/>
-        <order>5</order>
+        <order>6</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1811,14 +1986,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>76af482a0b070010b0ec2eec83673aa1</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:07</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1869,7 +2044,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
@@ -1900,6 +2075,87 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-05 09:54:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bea4dfa8-635c-4ed9-b618-1db047e28898</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>family</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Family</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:00</sys_created_on>
+        <sys_id>9a7735e6db2b04101c7b50d3e29619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1950,12 +2206,12 @@
         <label>Description</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
         <next_element/>
-        <order>4</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1973,14 +2229,95 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>baaf482a0b070010b0ec2eec83673a9b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 09:54:13</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Storage Location,child_name=storageLocation,child_type=string,child_type_label=String,child_uiUniqueId=a4193953-fcc2-4cea-b4e8-720f09ac3a41,co_type_name=FD827735e6ee2b041095e192fb5129469a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=0b66f188-99de-4710-8752-57de35ba22a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>storagelocations</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Storage Locations</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>de7735e6db2b04101c7b50d3e29619cc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2031,7 +2368,7 @@
         <label>Snapshot</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
@@ -2081,9 +2418,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>feaf482a0b070010b0ec2eec83673a94</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:07</sys_updated_on>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:42</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=feaf482a0b070010b0ec2eec83673a94"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2153,7 +2490,7 @@
         <label>Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
@@ -2237,7 +2574,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f</name>
@@ -2320,7 +2657,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f</name>
@@ -2403,7 +2740,7 @@
         <label>Image</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
+        <model display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</model>
         <model_id>6eaf482a0b070010b0ec2eec83673a7f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f</name>
@@ -2447,7 +2784,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN07af482a0b070010b0ec2eec83673adc,72af482a0b070010b0ec2eec83673aaa,cbaf482a0b070010b0ec2eec83673af9"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
+        <action display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
         <cid>4c19ef11-2678-43e2-a489-2e70bdcc8e30</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2836,7 +3173,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
+        <action display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
         <cid>29dbebaa-1c6f-47e5-ba29-31cdf173ae10</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2851,10 +3188,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:05</sys_created_on>
         <sys_id>72af482a0b070010b0ec2eec83673aaa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:08:56</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:56:12</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72af482a0b070010b0ec2eec83673aaa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2879,28 +3216,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:06</sys_created_on>
         <sys_id>f6af482a0b070010b0ec2eec83673ad8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:08:56</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:56:12</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'snapshot', 'name']);
     gcc.maptoOutputFromInput(inputs, outputs, ['projectid']);
-    var requestBody = {
-        "name": inputs.name.toLowerCase(),
-        "description": inputs.description,
-        "sourceSnapshot": "projects/" + inputs.projectid + "/global" + "/snapshots/" + inputs.snapshot
-    }
-    if (inputs.labels.length &gt; 0 ) {
-        var labels = {};
-        inputs.labels.forEach(function(label) {
-          if (label['key'].trim() &amp;&amp; label['value'].trim() )
-            labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
-        })
-        requestBody.labels = labels;
-    }
-    outputs.requestbody = JSON.stringify(requestBody);
+    gcc.createImage(inputs, outputs, 'Snapshot');
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -2928,6 +3252,18 @@
         <sys_updated_on>2020-02-21 09:40:06</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
         <value>{{action.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>family</field>
+        <id>72af482a0b070010b0ec2eec83673aaa</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>1e7735e6db2b04101c7b50d3e29619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
+        <value>{{action.family}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>labels</field>
@@ -2989,7 +3325,181 @@
         <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
         <value>{{action.snapshot}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=72af482a0b070010b0ec2eec83673aaa^sys_idNOT IN3eaf482a0b070010b0ec2eec83673ab2,76af482a0b070010b0ec2eec83673ab8,7eaf482a0b070010b0ec2eec83673aac,beaf482a0b070010b0ec2eec83673abd,f6af482a0b070010b0ec2eec83673ac3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>storageLocations</field>
+        <id>72af482a0b070010b0ec2eec83673aaa</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>5a7735e6db2b04101c7b50d3e29619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</table>
+        <value>{{action.storagelocations}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=72af482a0b070010b0ec2eec83673aaa^sys_idNOT IN127735e6db2b04101c7b50d3e29619e0,127735e6db2b04101c7b50d3e29619e5,3eaf482a0b070010b0ec2eec83673ab2,76af482a0b070010b0ec2eec83673ab8,7eaf482a0b070010b0ec2eec83673aac,beaf482a0b070010b0ec2eec83673abd,f6af482a0b070010b0ec2eec83673ac3"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>family</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">72af482a0b070010b0ec2eec83673aaa</model>
+        <model_id>72af482a0b070010b0ec2eec83673aaa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>127735e6db2b04101c7b50d3e29619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>storageLocations</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">72af482a0b070010b0ec2eec83673aaa</model>
+        <model_id>72af482a0b070010b0ec2eec83673aaa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_72af482a0b070010b0ec2eec83673aaa</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>127735e6db2b04101c7b50d3e29619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3559,7 +4069,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
+        <action display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action>
         <cid>f70acaf0-f504-4f23-aad8-0fae4e3e48e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4073,7 +4583,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN3eaf482a0b070010b0ec2eec83673a8a,7eaf482a0b070010b0ec2eec83673a93,b2af482a0b070010b0ec2eec83673aa0,f2af482a0b070010b0ec2eec83673aa6,f6af482a0b070010b0ec2eec83673a9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN3eaf482a0b070010b0ec2eec83673a8a,567735e6db2b04101c7b50d3e29619a8,7eaf482a0b070010b0ec2eec83673a93,9e7735e6db2b04101c7b50d3e29619d1,b2af482a0b070010b0ec2eec83673aa0,f2af482a0b070010b0ec2eec83673aa6,f6af482a0b070010b0ec2eec83673a9a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>project_id</element>
         <help/>
@@ -4098,6 +4608,29 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>family</element>
+        <help/>
+        <hint/>
+        <label>Family</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:00</sys_created_on>
+        <sys_id>567735e6db2b04101c7b50d3e29619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>snapshot</element>
         <help/>
         <hint/>
@@ -4117,6 +4650,29 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>storagelocations</element>
+        <help/>
+        <hint/>
+        <label>Storage Locations</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 13:45:01</sys_created_on>
+        <sys_id>9e7735e6db2b04101c7b50d3e29619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:45:01</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -4189,6 +4745,47 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN4a604442dbd344901c7b50d3e29619bb,075cb5eadb2b04101c7b50d3e296199b"/>
+    <sys_choice field="snapshot" table="var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-03 05:32:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a604442dbd344901c7b50d3e29619bb</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-17 17:25:29</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TESTCASE-1-SNAP-FROM-NORMALVALUESOFDISK</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6eaf482a0b070010b0ec2eec83673a7f</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-17 14:06:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>075cb5eadb2b04101c7b50d3e296199b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-17 17:25:29</sys_updated_on>
+            <value>testcase-1-snap-from-normalvaluesofdisk</value>
+        </sys_choice>
+    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN43afd188db5300901c7b50d3e2961908,83af882a0b070010b0ec2eec83673a4f,9faf882a0b070010b0ec2eec83673a54"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>image</element>
@@ -4321,19 +4918,19 @@
     </sys_choice>
     <sys_hub_action_plan action="delete_multiple" query="action_id=6eaf482a0b070010b0ec2eec83673a7f^sys_idNOT IN56bf8c2a0b070010b0ec2eec83673a56"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action_id>
+        <action_id display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"56bf8c2a0b070010b0ec2eec83673a56","name":"plan"}}</plan>
-        <snapshot>b3751cc7db9fc4901c7b50d3e29619e5</snapshot>
+        <snapshot>540ae26e1bef40501f8cb844cc4bcb9a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56bf8c2a0b070010b0ec2eec83673a56</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:23</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:57</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -4351,13 +4948,15 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt; - Name of the snapshot.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Name&lt;/b&gt; - Name of the image.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Family&lt;/b&gt; - Name of the image family to which this image belongs.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Description&lt;/b&gt; - description of this resource.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Labels&lt;/b&gt; - Labels is an object containing Key and Value.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Storage Locations&lt;/b&gt; - Storage location of the image.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Image&lt;/b&gt; - Image is an object containing Name,Insert Time,Self Link,Start Time,Target Link,User.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Image&lt;/b&gt; - Image is an object containing Name, Insert Time, Self-Link, Start Time, Target Link, User.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
@@ -4375,28 +4974,28 @@
 
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>create_image_for_snapshot</internal_name>
-        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.disk}}","label":"action➛Disk","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.labels}}","label":"action➛Labels","type":"action","ref":""},{"name":"{{action.labels.Label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label.Key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.Value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.labels.label.value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.snapshot}}","label":"action➛Snapshot","type":"action","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10]._}}","label":"step➛Pre Processing➛","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].disk}}","label":"step➛Pre Processing➛Disk","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].requestbody}}","label":"step➛Pre Processing➛requestBody","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].response_body}}","label":"step➛Create Image➛Response Body","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].status_code}}","label":"step➛Create Image➛Status Code","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image}}","label":"step➛Post Processing➛Image","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].u_api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child1}}","label":"step➛Post Processing➛image➛image_child1","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child2}}","label":"step➛Post Processing➛image➛image_child2","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child3}}","label":"step➛Post Processing➛image➛image_child3","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child4}}","label":"step➛Post Processing➛image➛image_child4","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child5}}","label":"step➛Post Processing➛image➛image_child5","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Insert_Time}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.insertTime}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Self_Link}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.selfLink}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Start_Time}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.startTime}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Target_Link}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.targetLink}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child6}}","label":"step➛Post Processing➛image➛image_child6","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.User}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.user}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.disk}}","label":"action➛Disk","type":"action","ref":""},{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.labels}}","label":"action➛Labels","type":"action","ref":""},{"name":"{{action.labels.Label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label}}","label":"action➛Labels➛Label","type":"action","ref":""},{"name":"{{action.labels.label.Key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.key}}","label":"action➛Labels➛Label➛Key","type":"action","ref":""},{"name":"{{action.labels.label.Value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.labels.label.value}}","label":"action➛Labels➛Label➛Value","type":"action","ref":""},{"name":"{{action.snapshot}}","label":"action➛Snapshot","type":"action","ref":""},{"name":"{{action.family}}","label":"action➛Family","type":"action","ref":""},{"name":"{{action.storage_locations}}","label":"action➛Storage Locations","type":"action","ref":""},{"name":"{{action.storagelocations}}","label":"action➛Storage Locations","type":"action","ref":""},{"name":"{{action.storagelocations.Storage_Location}}","label":"action➛Storage Locations➛Storage Location","type":"action","ref":""},{"name":"{{action.storagelocations.storageLocation}}","label":"action➛Storage Locations➛Storage Location","type":"action","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10]._}}","label":"step➛Pre Processing➛","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].disk}}","label":"step➛Pre Processing➛Disk","type":"step","ref":""},{"name":"{{step[29dbebaa-1c6f-47e5-ba29-31cdf173ae10].requestbody}}","label":"step➛Pre Processing➛requestBody","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].response_body}}","label":"step➛Create Image➛Response Body","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].status_code}}","label":"step➛Create Image➛Status Code","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image}}","label":"step➛Post Processing➛Image","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[4c19ef11-2678-43e2-a489-2e70bdcc8e30].u_api_version}}","label":"step➛Create Image➛API Version","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child1}}","label":"step➛Post Processing➛image➛image_child1","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child2}}","label":"step➛Post Processing➛image➛image_child2","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child3}}","label":"step➛Post Processing➛image➛image_child3","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child4}}","label":"step➛Post Processing➛image➛image_child4","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child5}}","label":"step➛Post Processing➛image➛image_child5","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.name}}","label":"step➛Post Processing➛image➛Name","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Insert_Time}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.insertTime}}","label":"step➛Post Processing➛image➛Insert Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Self_Link}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.selfLink}}","label":"step➛Post Processing➛image➛Self Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Start_Time}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.startTime}}","label":"step➛Post Processing➛image➛Start Time","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.Target_Link}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.targetLink}}","label":"step➛Post Processing➛image➛Target Link","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.image_child6}}","label":"step➛Post Processing➛image➛image_child6","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.User}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""},{"name":"{{step[f70acaf0-f504-4f23-aad8-0fae4e3e48e5].image.user}}","label":"step➛Post Processing➛image➛User","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Create Image For Snapshot</name>
+        <name>Create Image for Snapshot</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Create Image For Snapshot">6eaf482a0b070010b0ec2eec83673a7f</parent_action>
+        <parent_action display_value="Create Image for Snapshot">6eaf482a0b070010b0ec2eec83673a7f</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>95bf0c2a0b070010b0ec2eec83673abd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 12:12:45</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -4455,7 +5054,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN65bf4c2a0b070010b0ec2eec83673a72,a5bf4c2a0b070010b0ec2eec83673a48,adbf0c2a0b070010b0ec2eec83673af0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
+        <action display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
         <cid>f70acaf0-f504-4f23-aad8-0fae4e3e48e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4730,7 +5329,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD05859cc76f9fc490b929bfa6a9c15231,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
+        <attributes>co_type_name=FD210a266e74ef4050139f369467129cc2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4788,14 +5387,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:17</sys_created_on>
         <sys_id>39bf4c2a0b070010b0ec2eec83673a82</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:18</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4970,7 +5569,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
+        <action display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
         <cid>4c19ef11-2678-43e2-a489-2e70bdcc8e30</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5359,7 +5958,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
+        <action display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
         <cid>29dbebaa-1c6f-47e5-ba29-31cdf173ae10</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5374,10 +5973,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>adbf0c2a0b070010b0ec2eec83673af0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:09:12</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:57:31</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=adbf0c2a0b070010b0ec2eec83673af0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5388,28 +5987,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:17</sys_created_on>
         <sys_id>69bf4c2a0b070010b0ec2eec83673a44</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:09:12</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:57:31</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'snapshot', 'name']);
     gcc.maptoOutputFromInput(inputs, outputs, ['projectid']);
-    var requestBody = {
-        "name": inputs.name.toLowerCase(),
-        "description": inputs.description,
-        "sourceSnapshot": "projects/" + inputs.projectid + "/global" + "/snapshots/" + inputs.snapshot
-    }
-    if (inputs.labels.length &gt; 0 ) {
-        var labels = {};
-        inputs.labels.forEach(function(label) {
-          if (label['key'].trim() &amp;&amp; label['value'].trim() )
-            labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
-        })
-        requestBody.labels = labels;
-    }
-    outputs.requestbody = JSON.stringify(requestBody);
+    gcc.createImage(inputs, outputs, 'Snapshot');
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -5451,6 +6037,18 @@
         <sys_updated_on>2020-02-21 09:40:17</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
         <value>{{action.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>family</field>
+        <id>adbf0c2a0b070010b0ec2eec83673af0</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>856c79eadb2b04101c7b50d3e2961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
+        <value>{{action.family}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>labels</field>
@@ -5512,7 +6110,100 @@
         <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
         <value>{{action.snapshot}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=adbf0c2a0b070010b0ec2eec83673af0^sys_idNOT IN21bf4c2a0b070010b0ec2eec83673a2a,69bf0c2a0b070010b0ec2eec83673af9,69bf4c2a0b070010b0ec2eec83673a2f,a9bf0c2a0b070010b0ec2eec83673af3,e5bf4c2a0b070010b0ec2eec83673a24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>storageLocations</field>
+        <id>adbf0c2a0b070010b0ec2eec83673af0</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>c16c79eadb2b04101c7b50d3e2961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
+        <value>{{action.storagelocations}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=adbf0c2a0b070010b0ec2eec83673af0^sys_idNOT IN096c79eadb2b04101c7b50d3e296192f,21bf4c2a0b070010b0ec2eec83673a2a,69bf0c2a0b070010b0ec2eec83673af9,69bf4c2a0b070010b0ec2eec83673a2f,896c79eadb2b04101c7b50d3e2961929,a9bf0c2a0b070010b0ec2eec83673af3,e5bf4c2a0b070010b0ec2eec83673a24"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>storageLocations</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>storageLocations</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">adbf0c2a0b070010b0ec2eec83673af0</model>
+        <model_id>adbf0c2a0b070010b0ec2eec83673af0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>096c79eadb2b04101c7b50d3e296192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -5745,6 +6436,87 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>family</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>family</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">adbf0c2a0b070010b0ec2eec83673af0</model>
+        <model_id>adbf0c2a0b070010b0ec2eec83673af0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>896c79eadb2b04101c7b50d3e2961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6081,7 +6853,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN1dbf0c2a0b070010b0ec2eec83673ad2,1dbf0c2a0b070010b0ec2eec83673adc,91bf0c2a0b070010b0ec2eec83673ae8,d1bf0c2a0b070010b0ec2eec83673ac0,d5bf0c2a0b070010b0ec2eec83673ae2"/>
+    <sys_hub_action_input action="delete_multiple" query="model=95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN1dbf0c2a0b070010b0ec2eec83673ad2,1dbf0c2a0b070010b0ec2eec83673adc,306c39eadb2b04101c7b50d3e29619fe,386c79eadb2b04101c7b50d3e296190e,91bf0c2a0b070010b0ec2eec83673ae8,d1bf0c2a0b070010b0ec2eec83673ac0,d5bf0c2a0b070010b0ec2eec83673ae2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -6121,7 +6893,7 @@
         <label>Snapshot</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
@@ -6171,9 +6943,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>1dbf0c2a0b070010b0ec2eec83673adb</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:16</sys_updated_on>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:51</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1dbf0c2a0b070010b0ec2eec83673adb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6243,7 +7015,7 @@
         <label>Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
@@ -6289,7 +7061,169 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=5a6909ce-f213-46da-949c-509d847c76ee,co_type_name=FDa4855cc7039fc4904c26ccbb0d1587bf,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bea4dfa8-635c-4ed9-b618-1db047e28898</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>family</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Family</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:29</sys_created_on>
+        <sys_id>306c39eadb2b04101c7b50d3e29619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Storage Location,child_name=storageLocation,child_type=string,child_type_label=String,child_uiUniqueId=a4193953-fcc2-4cea-b4e8-720f09ac3a41,co_type_name=FD590a266eb1ef4050990bf4c860320d74,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=0b66f188-99de-4710-8752-57de35ba22a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>storagelocations</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Storage Locations</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:29</sys_created_on>
+        <sys_id>386c79eadb2b04101c7b50d3e296190e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Label,child_name=label,child_type=object,child_type_label=Object,child_uiUniqueId=f5bb33f4-fe24-4dac-9e4b-3b3e42a4901b,co_type_name=FD510a266ef9ef4050930267a06656eb73,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e38306b1-aa03-419e-8f72-89616de37e4b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6324,12 +7258,12 @@
         <label>Labels</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
         <next_element/>
-        <order>5</order>
+        <order>6</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -6347,14 +7281,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>91bf0c2a0b070010b0ec2eec83673ae8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:16</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6405,7 +7339,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
@@ -6486,12 +7420,12 @@
         <label>Description</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
         <next_element/>
-        <order>4</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -6509,14 +7443,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>d5bf0c2a0b070010b0ec2eec83673ae2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6570,7 +7504,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd</name>
@@ -6616,7 +7550,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDcd859cc79a9fc49019fa0a14de383444,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=f70acaf0-f504-4f23-aad8-0fae4e3e48e5,sourceType=step,sourceUiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46,uiType=object,uiTypeLabel=Object,uiUniqueId=0980b564-196a-454a-af0b-3867c0512417</attributes>
+        <attributes>co_type_name=FDa50a266ed1ef4050237cbc45be82e4d2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=f70acaf0-f504-4f23-aad8-0fae4e3e48e5,sourceType=step,sourceUiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46,uiType=object,uiTypeLabel=Object,uiUniqueId=0980b564-196a-454a-af0b-3867c0512417</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6653,7 +7587,7 @@
         <label>Image</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd</name>
@@ -6676,14 +7610,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-26 07:20:52</sys_created_on>
         <sys_id>c4cf9588db5300901c7b50d3e29619cf</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:18</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6736,7 +7670,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
+        <model display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</model>
         <model_id>95bf0c2a0b070010b0ec2eec83673abd</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd</name>
@@ -6780,7 +7714,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN65bf4c2a0b070010b0ec2eec83673a72,a5bf4c2a0b070010b0ec2eec83673a48,adbf0c2a0b070010b0ec2eec83673af0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
+        <action display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
         <cid>f70acaf0-f504-4f23-aad8-0fae4e3e48e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -7055,7 +7989,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD05859cc76f9fc490b929bfa6a9c15231,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
+        <attributes>co_type_name=FD210a266e74ef4050139f369467129cc2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abb1cfb0-c534-4436-8678-71ce10f75a46</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7113,14 +8047,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:17</sys_created_on>
         <sys_id>39bf4c2a0b070010b0ec2eec83673a82</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:38:18</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 17:25:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7295,7 +8229,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
+        <action display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
         <cid>4c19ef11-2678-43e2-a489-2e70bdcc8e30</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7684,7 +8618,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Create Image For Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
+        <action display_value="Create Image for Snapshot">95bf0c2a0b070010b0ec2eec83673abd</action>
         <cid>29dbebaa-1c6f-47e5-ba29-31cdf173ae10</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -7699,10 +8633,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:16</sys_created_on>
         <sys_id>adbf0c2a0b070010b0ec2eec83673af0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:09:12</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:57:31</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=adbf0c2a0b070010b0ec2eec83673af0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7713,28 +8647,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:40:17</sys_created_on>
         <sys_id>69bf4c2a0b070010b0ec2eec83673a44</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 09:09:12</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 16:57:31</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GooglePersistentDiskUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'snapshot', 'name']);
     gcc.maptoOutputFromInput(inputs, outputs, ['projectid']);
-    var requestBody = {
-        "name": inputs.name.toLowerCase(),
-        "description": inputs.description,
-        "sourceSnapshot": "projects/" + inputs.projectid + "/global" + "/snapshots/" + inputs.snapshot
-    }
-    if (inputs.labels.length &gt; 0 ) {
-        var labels = {};
-        inputs.labels.forEach(function(label) {
-          if (label['key'].trim() &amp;&amp; label['value'].trim() )
-            labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
-        })
-        requestBody.labels = labels;
-    }
-    outputs.requestbody = JSON.stringify(requestBody);
+    gcc.createImage(inputs, outputs, 'Snapshot');
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -7776,6 +8697,18 @@
         <sys_updated_on>2020-02-21 09:40:17</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
         <value>{{action.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>family</field>
+        <id>adbf0c2a0b070010b0ec2eec83673af0</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>856c79eadb2b04101c7b50d3e2961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
+        <value>{{action.family}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>labels</field>
@@ -7837,7 +8770,100 @@
         <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
         <value>{{action.snapshot}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=adbf0c2a0b070010b0ec2eec83673af0^sys_idNOT IN21bf4c2a0b070010b0ec2eec83673a2a,69bf0c2a0b070010b0ec2eec83673af9,69bf4c2a0b070010b0ec2eec83673a2f,a9bf0c2a0b070010b0ec2eec83673af3,e5bf4c2a0b070010b0ec2eec83673a24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>storageLocations</field>
+        <id>adbf0c2a0b070010b0ec2eec83673af0</id>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>c16c79eadb2b04101c7b50d3e2961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</table>
+        <value>{{action.storagelocations}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=adbf0c2a0b070010b0ec2eec83673af0^sys_idNOT IN096c79eadb2b04101c7b50d3e296192f,21bf4c2a0b070010b0ec2eec83673a2a,69bf0c2a0b070010b0ec2eec83673af9,69bf4c2a0b070010b0ec2eec83673a2f,896c79eadb2b04101c7b50d3e2961929,a9bf0c2a0b070010b0ec2eec83673af3,e5bf4c2a0b070010b0ec2eec83673a24"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>storageLocations</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>storageLocations</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">adbf0c2a0b070010b0ec2eec83673af0</model>
+        <model_id>adbf0c2a0b070010b0ec2eec83673af0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>096c79eadb2b04101c7b50d3e296192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -8070,6 +9096,87 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-21 09:40:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>family</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>family</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">adbf0c2a0b070010b0ec2eec83673af0</model>
+        <model_id>adbf0c2a0b070010b0ec2eec83673af0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_adbf0c2a0b070010b0ec2eec83673af0</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:30</sys_created_on>
+        <sys_id>896c79eadb2b04101c7b50d3e2961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8406,7 +9513,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN11bf0c2a0b070010b0ec2eec83673aed,15bf0c2a0b070010b0ec2eec83673ae1,59bf0c2a0b070010b0ec2eec83673ad1,99bf0c2a0b070010b0ec2eec83673ada,ddbf0c2a0b070010b0ec2eec83673ae6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN11bf0c2a0b070010b0ec2eec83673aed,15bf0c2a0b070010b0ec2eec83673ae1,59bf0c2a0b070010b0ec2eec83673ad1,99bf0c2a0b070010b0ec2eec83673ada,b46c79eadb2b04101c7b50d3e2961913,b86c79eadb2b04101c7b50d3e2961902,ddbf0c2a0b070010b0ec2eec83673ae6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>labels</element>
         <help/>
@@ -8500,6 +9607,52 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>storagelocations</element>
+        <help/>
+        <hint/>
+        <label>Storage Locations</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:29</sys_created_on>
+        <sys_id>b46c79eadb2b04101c7b50d3e2961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>family</element>
+        <help/>
+        <hint/>
+        <label>Family</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-17 14:06:29</sys_created_on>
+        <sys_id>b86c79eadb2b04101c7b50d3e2961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 14:06:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>description</element>
         <help/>
         <hint/>
@@ -8522,6 +9675,47 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN0e704842dbd344901c7b50d3e2961939,bc6c39eadb2b04101c7b50d3e29619f8"/>
+    <sys_choice field="snapshot" table="var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-03 05:32:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e704842dbd344901c7b50d3e2961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-03 05:32:26</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>snapshot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TESTCASE-1-SNAP-FROM-NORMALVALUESOFDISK</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_95bf0c2a0b070010b0ec2eec83673abd</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-17 14:06:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc6c39eadb2b04101c7b50d3e29619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-17 14:06:29</sys_updated_on>
+            <value>testcase-1-snap-from-normalvaluesofdisk</value>
+        </sys_choice>
+    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_95bf0c2a0b070010b0ec2eec83673abd^sys_idNOT IN35bf4c2a0b070010b0ec2eec83673aa8,39bf4c2a0b070010b0ec2eec83673aa2,84cf9588db5300901c7b50d3e29619d4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>errormessage</element>

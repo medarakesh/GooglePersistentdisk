@@ -39,7 +39,124 @@ GooglePersistentDiskUtils.prototype = {
         return outputs;
 
     },
+    createPersistentDisk: function(inputs, outputs) {
 
+        var requestBody = {
+            "name": inputs.name.toLowerCase(),
+            "description": inputs.description
+        };
+        if (inputs.sizeGb)
+            requestBody.sizeGb = inputs.sizeGb;
+        if (inputs.physicalBlockSizeBytes)
+            requestBody.physicalBlockSizeBytes = inputs.physicalBlockSizeBytes;
+        if (inputs.type)
+            requestBody.type = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/diskTypes/" + inputs.type;
+        if (inputs.labels.length > 0) {
+            var labels = {};
+            inputs.labels.forEach(function(label) {
+                if (label['key'].trim() && label['value'].trim())
+                    labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
+            });
+            requestBody.labels = labels;
+        }
+        if (inputs['sourceImage'])
+            requestBody['sourceImage'] = inputs['sourceImage'];
+        if (inputs['sourceSnapshot'])
+            requestBody['sourceSnapshot'] = inputs['sourceSnapshot'];
+        if (inputs['guestOsFeatures'].length > 0) {
+            var guestOsFeaturesList = [];
+            var guestOsTypes = [];
+            inputs['guestOsFeatures'].forEach(function(guestOsFeature) {
+                var osType = guestOsFeature.trim;
+                if (osType && guestOsTypes.indexOf(osType) != -1) {
+                    guestOsTypes.push(osType + '');
+                    guestOsFeaturesList.push({
+                        "type": osType
+                    });
+                }
+
+            });
+            if (guestOsFeaturesList.length > 0)
+                requestBody['guestOsFeatures'] = guestOsFeaturesList;
+
+        }
+
+        if (requestBody['sourceImage'] && requestBody['sourceSnapshot'])
+            throw new Error("Cannot specify both source image and source snapshot.");
+
+        outputs.requestbody = JSON.stringify(requestBody);
+
+        return outputs.requestbody;
+
+    },
+    createSnapshot: function(inputs, outputs) {
+        var requestBody = {
+            "name": inputs.name.toLowerCase(),
+            "description": inputs.description
+        };
+        if (inputs.labels.length > 0) {
+            var labels = {};
+            inputs.labels.forEach(function(label) {
+                if (label['key'].trim() && label['value'].trim())
+                    labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
+            });
+            requestBody.labels = labels;
+        }
+        if (inputs['storageLocations'].length > 0) {
+            var storageLocationsList = [];
+            inputs['storageLocations'].forEach(function(storageLocation) {
+                if (storageLocation.trim())
+                    storageLocationsList.push(storageLocation.toString());
+            });
+            if (storageLocationsList.length > 1)
+                throw new Error('Only one storage location is allowed');
+
+            if (storageLocationsList.length > 0)
+                requestBody['storageLocations'] = storageLocationsList;
+        }
+        outputs.requestbody = JSON.stringify(requestBody);
+
+        return outputs.requestbody;
+
+    },
+    createImage: function(inputs, outputs, sourceType) {
+        var requestBody = {
+            "name": inputs.name.toLowerCase(),
+            "description": inputs.description
+
+        };
+        if (sourceType == "Disk")
+            requestBody["sourceDisk"] = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/disks/" + inputs.disk;
+        else if (sourceType == "Snapshot")
+            requestBody["sourceSnapshot"] = "projects/" + inputs.projectid + "/global" + "/snapshots/" + inputs.snapshot;
+        else if (sourceType == "Image")
+            requestBody["sourceImage"] = "projects/" + inputs.projectid + "/global" + "/images/" + inputs.image;
+
+        if (inputs.labels.length > 0) {
+            var labels = {};
+            inputs.labels.forEach(function(label) {
+                if (label['key'].trim() && label['value'].trim())
+                    labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
+            });
+            requestBody.labels = labels;
+        }
+        if (inputs["family"])
+            requestBody["family"] = inputs['family'].toLowerCase();
+        if (inputs['storageLocations'].length > 0) {
+            var storageLocationsList = [];
+            inputs['storageLocations'].forEach(function(storageLocation) {
+                if (storageLocation.trim())
+                    storageLocationsList.push(storageLocation.toString());
+            });
+            if (storageLocationsList.length > 1)
+                throw new Error('Only one storage location is allowed');
+
+            if (storageLocationsList.length > 0)
+                requestBody['storageLocations'] = storageLocationsList;
+        }
+        outputs.requestbody = JSON.stringify(requestBody);
+
+    },
 
     type: 'GooglePersistentDiskUtils'
 };]]></script>
@@ -47,13 +164,13 @@ GooglePersistentDiskUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-18 11:21:56</sys_created_on>
         <sys_id>b8c949e9db070010a16b5a75dc961993</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>GooglePersistentDiskUtils</sys_name>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_script_include_b8c949e9db070010a16b5a75dc961993</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-18 11:21:56</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 13:54:06</sys_updated_on>
     </sys_script_include>
 </record_update>

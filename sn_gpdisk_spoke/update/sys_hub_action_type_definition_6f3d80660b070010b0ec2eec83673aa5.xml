@@ -18,7 +18,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt;- JSON  object contains snapshots Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt; - JSON  object contains snapshots Label and Name.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
@@ -37,7 +37,7 @@
         <ih_action>false</ih_action>
         <internal_name>fetch_snapshots</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].variable}}","label":"step➛List snapshots➛variable","type":"step","ref":""},{"name":"{{step[30fb49e9-db5c-4a47-9a5b-6c600030c154].snapshots}}","label":"step➛List snapshots➛Snapshots","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>477890cbdb9fc4901c7b50d3e2961949</latest_snapshot>
+        <latest_snapshot>2b6596aa1baf40501f8cb844cc4bcb1d</latest_snapshot>
         <master_snapshot>ac4dc0660b070010b0ec2eec83673ac8</master_snapshot>
         <name>List Snapshots</name>
         <natlang/>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f3d80660b070010b0ec2eec83673aa5</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>List Snapshots</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Persistent Disk" source="sn_gpdisk_spoke">06a7f79ddb8b0010c5267bfdae9619b4</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6f3d80660b070010b0ec2eec83673aa5</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 10:07:12</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:55:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -835,17 +835,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="List Snapshots">6f3d80660b070010b0ec2eec83673aa5</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7c4d04660b070010b0ec2eec83673a1c","name":"plan"}}</plan>
-        <snapshot>477890cbdb9fc4901c7b50d3e2961949</snapshot>
+        <snapshot>2b6596aa1baf40501f8cb844cc4bcb1d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-21 09:29:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c4d04660b070010b0ec2eec83673a1c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:51:18</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:55:56</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -865,7 +865,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt;- JSON  object contains snapshots Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Snapshot&lt;/b&gt; - JSON  object contains snapshots Label and Name.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Persistent Disk , Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
@@ -895,15 +895,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac4dc0660b070010b0ec2eec83673ac8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Persistent Disk">06a7f79ddb8b0010c5267bfdae9619b4</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 09:51:17</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:55:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
